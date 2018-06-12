@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { darken } from 'polished'
+import { lighten } from 'polished'
 
 const TextButton = styled.button.attrs({ type: props => props.type })`
   display: flex;
@@ -23,7 +23,7 @@ const TextButton = styled.button.attrs({ type: props => props.type })`
   font-family: 'Robot', sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
-  color: ${props => props.primaryColor};
+  color: ${props => props.color};
   background-color: #FFFFFF;
   border-width: 1px;
   border-style: solid;
@@ -34,15 +34,14 @@ const TextButton = styled.button.attrs({ type: props => props.type })`
   opacity: ${props => props.disabled ? 0.5 : 1};
 
   &:hover {
-    background-color: ${props => props.disabled ? 'none' : darken(0.1, '#FFFFFF')};
+    background-color: ${props => props.disabled ? 'none' : lighten(0.1, '#FFFFFF')};
   }
   &:focus { outline:0; }
  `
 
  TextButton.propTypes = {
   type: PropTypes.oneOf(['button', 'submit']),
-  primaryColor: PropTypes.string,
-  borderColor: PropTypes.string,
+  color: PropTypes.string,
   fullwidth: PropTypes.bool,
   width: PropTypes.string,
   disabled: PropTypes.bool,
@@ -53,7 +52,7 @@ const TextButton = styled.button.attrs({ type: props => props.type })`
 
 TextButton.defaultProps = {
   type: 'button',
-  primaryColor: '#990000',
+  color: '#990000',
   fullwidth: false,
   width: 'auto',
   disabled: false,

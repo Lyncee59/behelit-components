@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { darken } from 'polished'
+import { lighten } from 'polished'
 
 const ContainedButton = styled.button.attrs({ type: props => props.type })`
   display: flex;
@@ -23,28 +23,27 @@ const ContainedButton = styled.button.attrs({ type: props => props.type })`
   font-family: 'Montserrat', Helvetica, sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
-  color: ${props => props.primaryColor};
-  background-color: ${props => props.secondaryColor};
+  color: ${props => props.color};
+  background-color: ${props => props.backgroundColor};
   border-width: 2px;
   border-style: solid;
-  border-color: ${props => props.secondaryColor};
+  border-color: ${props => props.backgroundColor};
   border-radius: 3px;
   box-sizing: border-box;
   opacity: ${props => props.disabled ? 0.5 : 1};
   cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
 
   &:hover {
-    background-color: ${props => props.disabled ? 'none' : darken(0.1, props.secondaryColor)};
-    border-color: ${props => props.disabled ? 'none' : darken(0.1, props.secondaryColor)};
+    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
+    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
   }
   &:focus { outline:0; }
  `
 
  ContainedButton.propTypes = {
   type: PropTypes.oneOf(['button', 'submit']),
-  primaryColor: PropTypes.string,
-  secondaryColor: PropTypes.string,
-  borderColor: PropTypes.string,
+  color: PropTypes.string,
+  backgroundColor: PropTypes.string,
   fullwidth: PropTypes.bool,
   width: PropTypes.string,
   disabled: PropTypes.bool,
@@ -55,8 +54,8 @@ const ContainedButton = styled.button.attrs({ type: props => props.type })`
 
 ContainedButton.defaultProps = {
   type: 'button',
-  primaryColor: '#FFFFFF',
-  secondaryColor: '#990000',
+  color: '#FFFFFF',
+  backgroundColor: '#990000',
   fullwidth: false,
   width: 'auto',
   disabled: false,

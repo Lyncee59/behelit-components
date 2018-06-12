@@ -2,15 +2,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { lighten } from 'polished'
+import '../Fonts/Fontawesome'
 
 const Icon = styled.i`
   font-size: ${props => props.size}!important;
   font-weight: ${props => props.weight}!important;
   color: ${props => props.color}!important;
-  cursor: ${props => props.cursor === 1 ? 'pointer' : 'default'};
+  cursor: ${props => props.cursor === 1 ? 'pointer' : 'inherit'};
   transition: 0.3s;
 
-  &:hover { color: ${props => props.hover ? lighten(0.15, props.color) : props.color}; }
+  &:hover { 
+    font-size:12px;
+    color: ${props => props.hover ? lighten(0.15, props.color) : props.color}!important;
+  }
 `
 
 const Fontawesome = props => {
@@ -29,7 +33,7 @@ Fontawesome.propTypes = {
 Fontawesome.defaultProps = {
   color: '#990000',
   weight: 400,
-  size: '16px',
+  size: '48px',
   cursor: false,
   hover: false
 }
