@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { lighten } from 'polished'
+import '../Fonts/Roboto'
 
 const ContainedButton = styled.button.attrs({ type: props => props.type })`
   display: flex;
@@ -20,7 +21,7 @@ const ContainedButton = styled.button.attrs({ type: props => props.type })`
   white-space: nowrap;
   line-height: 1;
   text-transform: ${props => props.uppercase ? 'uppercase' : props.capitalize ? 'capitalize' : 'none'};
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
   color: ${props => props.color};
@@ -32,7 +33,6 @@ const ContainedButton = styled.button.attrs({ type: props => props.type })`
   box-sizing: border-box;
   opacity: ${props => props.disabled ? 0.5 : 1};
   cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
-
   &:hover {
     background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
     border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};

@@ -20,7 +20,7 @@ const OutlinedButton = styled.button.attrs({ type: props => props.type })`
   white-space: nowrap;
   line-height: 1;
   text-transform: ${props => props.uppercase ? 'uppercase' : props.capitalize ? 'capitalize' : 'none'};
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
   color: ${props => props.color};

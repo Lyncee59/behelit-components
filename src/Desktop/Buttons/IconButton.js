@@ -21,16 +21,15 @@ const Wrapper = styled.button.attrs({ type: props => props.type })`
   white-space: nowrap;
   line-height: 1;
   text-transform: ${props => props.uppercase ? 'uppercase' : props.capitalize ? 'capitalize' : 'none'};
-  font-family: 'Montserrat', Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
-  cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
-  opacity: ${props => props.disabled ? 0.5 : 1};
   color: ${props => props.color};
   background-color: ${props => props.backgroundColor};
   border-radius: 3px;
   border-width: 2px solid ${props => props.backgroundColor};
   opacity: ${props => props.disabled ? 0.5 : 1};
+  cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
   &:hover {
     border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
     background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};

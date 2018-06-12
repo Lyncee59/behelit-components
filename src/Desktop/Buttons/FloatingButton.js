@@ -12,13 +12,12 @@ const Wrapper = styled.button.attrs({ type: props => props.type }) `
   width: ${props => props.containerSize};
   height: ${props => props.containerSize};
   transition: all 0.2s ease-in-out;
-  cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
-  opacity: ${props => props.disabled ? 0.5 : 1};
   color: ${props => props.color};
   background-color: ${props => props.backgroundColor};
   border-radius: 50%;
   border-width: 2px solid ${props => props.backgroundColor};
   opacity: ${props => props.disabled ? 0.5 : 1};
+  cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
   &:hover {
     border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
     background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};

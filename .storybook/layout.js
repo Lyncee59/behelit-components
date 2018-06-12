@@ -15,7 +15,7 @@ const BasePage = styled.div`
   box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 3px;
   background-color:#FFFFFF;
   margin-top: 20px;
-  margin-bottom: -30px;
+  margin-bottom: 20px;
 `
 const TitleWrapper = styled.div`
   display: flex;
