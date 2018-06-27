@@ -24,15 +24,15 @@ const Wrapper = styled.button.attrs({ type: props => props.type })`
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
-  color: ${props => props.color};
-  background-color: ${props => props.backgroundColor};
+  color: ${props => props.theme.buttons[props.nature].color1};
+  background-color: ${props => props.theme.buttons[props.nature].color2};
   border-radius: 3px;
-  border-width: 2px solid ${props => props.backgroundColor};
+  border-width: 2px solid ${props => props.theme.buttons[props.nature].color2};
   opacity: ${props => props.disabled ? 0.5 : 1};
   cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
   &:hover {
-    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
-    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
+    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.theme.buttons[props.nature].color2)};
+    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.theme.buttons[props.nature].color2)};
   }
   &:focus { outline:0; }
   & > :first-child { margin-right: 10px; }
@@ -47,6 +47,7 @@ const IconButton = props => (
 
 IconButton.propTypes = {
   name: PropTypes.string,
+  nature: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'quaternary', 'quinary', 'senary', 'septenary', 'octonary', 'nonary', 'denary']),
   type: PropTypes.oneOf(['button', 'submit']),
   color: PropTypes.string,
   backgroundColor: PropTypes.string,
@@ -60,6 +61,7 @@ IconButton.propTypes = {
 
 IconButton.defaultProps = {
   name: 'plus',
+  nature: 'primary',
   type: 'button',
   color: '#FFFFFF',
   backgroundColor: '#990000',

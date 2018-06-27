@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import { lighten } from 'polished'
 import '../Fonts/Roboto'
 
-const ContainedButton = styled.button.attrs({ type: props => props.type })`
+const BaseContainedButton = styled.button.attrs({ type: props => props.type })`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -24,26 +24,27 @@ const ContainedButton = styled.button.attrs({ type: props => props.type })`
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
-  color: ${props => props.color};
-  background-color: ${props => props.backgroundColor};
+  color: ${props => props.theme.buttons[props.nature].color1};
+  background-color: ${props => props.theme.buttons[props.nature].color2};
   border-width: 2px;
   border-style: solid;
-  border-color: ${props => props.backgroundColor};
+  border-color: ${props => props.theme.buttons[props.nature].color2};
   border-radius: 3px;
   box-sizing: border-box;
   opacity: ${props => props.disabled ? 0.5 : 1};
   cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
   &:hover {
-    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
-    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
+    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.theme.buttons[props.nature].color2)};
+    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.theme.buttons[props.nature].color2)};
   }
   &:focus { outline:0; }
  `
 
+ const ContainedButton = props => <BaseContainedButton {...props} />
+
  ContainedButton.propTypes = {
   type: PropTypes.oneOf(['button', 'submit']),
-  color: PropTypes.string,
-  backgroundColor: PropTypes.string,
+  nature: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'quaternary', 'quinary', 'senary', 'septenary', 'octonary', 'nonary', 'denary']),
   fullwidth: PropTypes.bool,
   width: PropTypes.string,
   disabled: PropTypes.bool,
@@ -54,8 +55,7 @@ const ContainedButton = styled.button.attrs({ type: props => props.type })`
 
 ContainedButton.defaultProps = {
   type: 'button',
-  color: '#FFFFFF',
-  backgroundColor: '#990000',
+  nature: 'primary',
   fullwidth: false,
   width: 'auto',
   disabled: false,

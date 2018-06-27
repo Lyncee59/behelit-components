@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { lighten, darken } from 'polished'
 
-const TextInput = styled.input.attrs({ type: 'text' })`
+const TextInput = styled.input.attrs({ type: props => props.type })`
   display: block;
   width: ${props => props.fullwidth ? '100%' : props.width};
   height: ${props => props.height};
@@ -30,6 +30,7 @@ const TextInput = styled.input.attrs({ type: 'text' })`
 `
 
 TextInput.propTypes = {
+  type: PropTypes.oneOf(['text', 'date', 'number']),
   color: PropTypes.string,
   backgroundColor: PropTypes.string,
   borderColor: PropTypes.string,
@@ -40,6 +41,7 @@ TextInput.propTypes = {
 }
 
 TextInput.defaultProps = {
+  type: 'text',
   color: '#545456',
   backgroundColor: '#FFFFFF',
   borderColor: '#CCCCCC',

@@ -5,15 +5,14 @@ import { lighten } from 'polished'
 import '../Fonts/Fontawesome'
 
 const Icon = styled.i`
-  font-size: ${props => props.size}!important;
-  font-weight: ${props => props.weight}!important;
-  color: ${props => props.color}!important;
+  font-size: ${props => props.size};
+  font-weight: ${props => props.weight};
+  color: ${props => props.color};
   cursor: ${props => props.cursor === 1 ? 'pointer' : 'inherit'};
   transition: 0.3s;
 
   &:hover { 
-    font-size:12px;
-    color: ${props => props.hover ? lighten(0.15, props.color) : props.color}!important;
+    color: ${props => props.cursor === 1 && props.color !== 'inherit' ? lighten(0.15, props.color) : props.color};
   }
 `
 
@@ -23,19 +22,18 @@ const Fontawesome = props => {
 }
 
 Fontawesome.propTypes = {
+  name: PropTypes.string.isRequired,
   color: PropTypes.string,
   weight: PropTypes.oneOf([100, 300, 400, 500, 700, 900]),
   size: PropTypes.string,
-  cursor: PropTypes.bool,
-  hover: PropTypes.bool
+  cursor: PropTypes.bool
 }
 
 Fontawesome.defaultProps = {
-  color: '#990000',
+  color: 'inherit',
   weight: 400,
   size: '48px',
-  cursor: false,
-  hover: false
+  cursor: false
 }
 
 export default Fontawesome

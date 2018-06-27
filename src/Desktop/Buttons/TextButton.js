@@ -23,7 +23,7 @@ const TextButton = styled.button.attrs({ type: props => props.type })`
   font-family: 'Robot', sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
-  color: ${props => props.color};
+  color: ${props => props.theme.buttons[props.nature].color1};
   background-color: #FFFFFF;
   border-width: 1px;
   border-style: solid;
@@ -41,6 +41,7 @@ const TextButton = styled.button.attrs({ type: props => props.type })`
 
  TextButton.propTypes = {
   type: PropTypes.oneOf(['button', 'submit']),
+  nature: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'quaternary', 'quinary', 'senary', 'septenary', 'octonary', 'nonary', 'denary']),
   color: PropTypes.string,
   fullwidth: PropTypes.bool,
   width: PropTypes.string,
@@ -52,7 +53,7 @@ const TextButton = styled.button.attrs({ type: props => props.type })`
 
 TextButton.defaultProps = {
   type: 'button',
-  color: '#990000',
+  nature: 'primary',
   fullwidth: false,
   width: 'auto',
   disabled: false,

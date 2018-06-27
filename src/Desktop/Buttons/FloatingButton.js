@@ -12,17 +12,22 @@ const Wrapper = styled.button.attrs({ type: props => props.type }) `
   width: ${props => props.containerSize};
   height: ${props => props.containerSize};
   transition: all 0.2s ease-in-out;
-  color: ${props => props.color};
-  background-color: ${props => props.backgroundColor};
+  background-color: ${props => props.theme.buttons[props.nature].color2};
   border-radius: 50%;
-  border-width: 2px solid ${props => props.backgroundColor};
+  border-width: 2px;
+  border-style: solid;
+  border-color: ${props => props.theme.buttons[props.nature].color2};
   opacity: ${props => props.disabled ? 0.5 : 1};
   cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
   &:hover {
-    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
-    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
+    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.theme.buttons[props.nature].color2)};
+    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.theme.buttons[props.nature].color2)};
   }
   &:focus { outline:0; }
+  & i {
+    color: ${props => props.theme.buttons[props.nature].color1};
+    &:hover { color: ${props => props.theme.buttons[props.nature].color1}; }
+  }
 `
 
 const selectSize = size => {
@@ -38,7 +43,7 @@ const IconButton = props => {
 
   return (
     <Wrapper containerSize={containerSize} {...props}>
-      <Icon name={props.name} color={props.color} size={fontSize} />
+      <Icon name={props.name} size={fontSize} />
       {props.children}
     </Wrapper>
   )
@@ -46,19 +51,17 @@ const IconButton = props => {
 
 IconButton.propTypes = {
   name: PropTypes.string,
+  nature: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'quaternary', 'quinary', 'senary', 'septenary', 'octonary', 'nonary', 'denary']),
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   type: PropTypes.oneOf(['button', 'submit']),
-  color: PropTypes.string,
-  backgroundColor: PropTypes.string,
   disabled: PropTypes.bool
 }
 
 IconButton.defaultProps = {
   name: 'plus',
+  nature: 'primary',
   size: 'small',
   type: 'button',
-  color: '#FFFFFF',
-  backgroundColor: '#990000',
   disabled: false
 }
 

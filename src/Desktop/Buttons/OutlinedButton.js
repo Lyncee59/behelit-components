@@ -23,27 +23,25 @@ const OutlinedButton = styled.button.attrs({ type: props => props.type })`
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-weight: ${props => props.bold ? '700' : '300'};
-  color: ${props => props.color};
-  background-color: ${props => props.backgroundColor};
+  color: ${props => props.theme.buttons[props.nature].color1};
+  background-color: ${props => props.theme.buttons[props.nature].color2};
   border-width: 1px;
   border-style: solid;
-  border-color: ${props => props.borderColor};
+  border-color: ${props => props.theme.buttons[props.nature].color2};
   border-radius: 3px;
   box-sizing: border-box;
   cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
   opacity: ${props => props.disabled ? 0.5 : 1};
   &:hover {
-    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.backgroundColor)};
-    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.borderColor)};
+    background-color: ${props => props.disabled ? 'none' : lighten(0.1, props.theme.buttons[props.nature].color2)};
+    border-color: ${props => props.disabled ? 'none' : lighten(0.1, props.theme.buttons[props.nature].color2)};
   }
   &:focus { outline:0; }
  `
 
  OutlinedButton.propTypes = {
   type: PropTypes.oneOf(['button', 'submit']),
-  color: PropTypes.string,
-  backgroundColor: PropTypes.string,
-  borderColor: PropTypes.string,
+  nature: PropTypes.oneOf(['primary', 'secondary', 'tertiary', 'quaternary', 'quinary', 'senary', 'septenary', 'octonary', 'nonary', 'denary']),
   width: PropTypes.bool,
   fullwidth: PropTypes.bool,
   width: PropTypes.string,
@@ -55,9 +53,7 @@ const OutlinedButton = styled.button.attrs({ type: props => props.type })`
 
 OutlinedButton.defaultProps = {
   type: 'button',
-  color: '#990000',
-  backgroundColor: '#FFFFFF',
-  borderColor: '#990000',
+  nature: 'primary',
   fullwidth: false,
   width: 'auto',
   disabled: false,

@@ -1,3 +1,7 @@
 import * as Desktop from './Desktop'
+import * as Themes from './Themes'
 
-export { Desktop }
+export default {
+  ...Desktop,
+  ...Themes
+}
