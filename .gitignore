@@ -1,1 +1,31 @@
+# Ignore generated folders
 node_modules
+storybook-static
+esm
+lib
+.cache
+
+# Lock files
+# https://github.com/sindresorhus/ama/issues/479#issuecomment-310661514
+yarn.lock
+package-lock.json
+
+# Logs
+*.log
+yarn-error.log
+
+# Editor
+.DS_Store
+*.swp
+.idea
+.vscode
+
+# Coverage directory used by tools like Istanbul
+coverage
+flow-coverage
+
+# a11y files
+a11y/results
+
+# Release
+CHANGELOG.md

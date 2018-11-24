@@ -1,0 +1,1 @@
+const fa = require('./fontAwesome')
