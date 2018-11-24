@@ -8,16 +8,13 @@ module.exports = {
   clearMocks: true,
   collectCoverage: coverageEnabled,
   collectCoverageFrom: [
-    'src/Atoms/**/**.js',
-    'src/Molecules/**/**.js',
+    'src/**/**.js',
     '!src/Tools/**',
-    '!src/Atoms/Icons/crypto/**',
-    '!src/Atoms/Icons/custom/**',
-    '!src/Atoms/Icons/fa/**',
+    '!src/Icons/fa/**',
     '!**/__snapshots__/**',
     '!**/**.stories.js',
     '!**/**Map.js',
-    '!**/index.js',
+    '!**/index.js'
   ],
   coverageDirectory: './coverage',
   coverageReporters: ['json-summary', 'lcov'],
@@ -26,12 +23,12 @@ module.exports = {
       branches: 90,
       functions: 95,
       lines: 95,
-      statements: 95,
-    },
+      statements: 95
+    }
   },
   setupFiles: [raf, enzyme],
   setupTestFrameworkScriptFile: testFramework,
   snapshotSerializers: [require.resolve('enzyme-to-json/serializer')],
   testURL: 'http://localhost/',
-  transform: { '^.+\\.(js|jsx|mjs)$': '<rootDir>/node_modules/babel-jest' },
+  transform: { '^.+\\.(js|jsx|mjs)$': '<rootDir>/node_modules/babel-jest' }
 }
