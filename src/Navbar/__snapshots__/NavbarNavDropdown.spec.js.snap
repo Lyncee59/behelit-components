@@ -5,7 +5,7 @@ exports[`NavbarNavDropdown should render correctly 1`] = `
   position: relative;
   width: 100%;
   padding: 0.5rem 0;
-  border-top: 0.5px solid #999B9E;
+  border-top: 0.5px solid #FFFFFF;
   box-sizing: border-box;
 }
 
@@ -37,9 +37,63 @@ exports[`NavbarNavDropdown should render correctly 1`] = `
 
 <NavbarNavItem>
   <styled.li>
-    <li
-      className="c0"
-    />
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  position: relative;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-top: 0.5px solid ",
+              [Function],
+              ";
+  box-sizing: border-box;
+
+  @media (min-width: ",
+              [Function],
+              ") {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    width: auto;
+    padding: 0.75rem 1rem;
+    border-top: none;
+
+    & > :last-child {
+      display: none;
+    }
+
+    &:hover {
+      & > :last-child {
+        display: block;
+      }
+    }
+  }
+",
+            ],
+          },
+          "displayName": "styled.li",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "li",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <li
+        className="c0"
+      />
+    </StyledComponent>
   </styled.li>
 </NavbarNavItem>
 `;

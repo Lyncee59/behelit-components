@@ -2,22 +2,20 @@
 
 exports[`FooterElement should render correctly 1`] = `
 .c1 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 500;
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: #990000;
   opacity: 1;
   cursor: pointer;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c1:hover {
-  color: #004A7C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #800000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .c0 {
@@ -27,36 +25,129 @@ exports[`FooterElement should render correctly 1`] = `
 
 <FooterLink>
   <Styled(Link)>
-    <Link
-      capitalize={false}
-      className="c0"
-      e2e="defaultLink"
-      italic={false}
-      opacity={1}
-      size="1rem"
-      uppercase={false}
-      weight={500}
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "size": "1rem",
+              "weight": 500,
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  position: relative;
+  white-space: nowrap;
+",
+            ],
+          },
+          "displayName": "Styled(Link)",
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <styled.a
+      <Link
         capitalize={false}
         className="c0"
-        e2e="defaultLink"
         italic={false}
         opacity={1}
         size="1rem"
         uppercase={false}
         weight={500}
       >
-        <a
-          className="c0 c1"
-          data-e2e="defaultLink"
+        <styled.a
+          capitalize={false}
+          className="c0"
+          italic={false}
           opacity={1}
           size="1rem"
+          uppercase={false}
+          weight={500}
         >
-          FooterLink
-        </a>
-      </styled.a>
-    </Link>
+          <StyledComponent
+            capitalize={false}
+            className="c0"
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  font-family: ",
+                    [Function],
+                    ";
+  font-weight: ",
+                    [Function],
+                    ";
+  font-size: ",
+                    [Function],
+                    ";
+  text-transform: ",
+                    [Function],
+                    ";
+  font-style: ",
+                    [Function],
+                    ";
+  color: ",
+                    [Function],
+                    ";
+  opacity: ",
+                    [Function],
+                    ";
+  cursor: pointer;
+
+  &:hover {
+    color: ",
+                    [Function],
+                    ";
+    text-decoration: underline;
+  }
+",
+                  ],
+                },
+                "displayName": "styled.a",
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "a",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            italic={false}
+            opacity={1}
+            size="1rem"
+            uppercase={false}
+            weight={500}
+          >
+            <a
+              className="c0 c1"
+              opacity={1}
+              size="1rem"
+            >
+              FooterLink
+            </a>
+          </StyledComponent>
+        </styled.a>
+      </Link>
+    </StyledComponent>
   </Styled(Link)>
 </FooterLink>
 `;

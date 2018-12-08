@@ -2,8 +2,7 @@
 
 exports[`FooterCategory should render correctly 1`] = `
 .c0 {
-  color: #040d25;
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -16,11 +15,48 @@ exports[`FooterCategory should render correctly 1`] = `
 
 <FooterCategory>
   <styled.h5>
-    <h5
-      className="c0"
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  color: ",
+              [Function],
+              ";
+  font-family: ",
+              [Function],
+              ";
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+",
+            ],
+          },
+          "displayName": "styled.h5",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "h5",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      FooterCategory
-    </h5>
+      <h5
+        className="c0"
+      >
+        FooterCategory
+      </h5>
+    </StyledComponent>
   </styled.h5>
 </FooterCategory>
 `;

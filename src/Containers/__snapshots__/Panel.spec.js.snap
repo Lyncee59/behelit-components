@@ -20,8 +20,8 @@ exports[`Panel should render correctly 1`] = `
   height: auto;
   width: 100%;
   min-width: 100%;
-  box-shadow: 0 0 1.5rem 0.4rem #EEF2F5;
-  background-color: #FFF;
+  box-shadow: 0 0 1.5rem 0.4rem rgba(0,0,0,0.10);
+  background-color: #FFFFFF;
 }
 
 <Panel
@@ -32,13 +32,60 @@ exports[`Panel should render correctly 1`] = `
     height="auto"
     width="100%"
   >
-    <div
-      className="c0"
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+  min-width: ",
+              [Function],
+              ";
+  box-shadow: 0 0 1.5rem 0.4rem ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="auto"
       width="100%"
     >
-      MyPanel
-    </div>
+      <div
+        className="c0"
+        height="auto"
+        width="100%"
+      >
+        MyPanel
+      </div>
+    </StyledComponent>
   </styled.div>
 </Panel>
 `;
@@ -63,8 +110,8 @@ exports[`Panel should render correctly with height 1`] = `
   height: 200px;
   width: 100%;
   min-width: 100%;
-  box-shadow: 0 0 1.5rem 0.4rem #EEF2F5;
-  background-color: #FFF;
+  box-shadow: 0 0 1.5rem 0.4rem rgba(0,0,0,0.10);
+  background-color: #FFFFFF;
 }
 
 <Panel
@@ -75,13 +122,60 @@ exports[`Panel should render correctly with height 1`] = `
     height="200px"
     width="100%"
   >
-    <div
-      className="c0"
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+  min-width: ",
+              [Function],
+              ";
+  box-shadow: 0 0 1.5rem 0.4rem ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="200px"
       width="100%"
     >
-      MyPanel
-    </div>
+      <div
+        className="c0"
+        height="200px"
+        width="100%"
+      >
+        MyPanel
+      </div>
+    </StyledComponent>
   </styled.div>
 </Panel>
 `;
@@ -106,8 +200,8 @@ exports[`Panel should render correctly with width 1`] = `
   height: auto;
   width: 200px;
   min-width: 200px;
-  box-shadow: 0 0 1.5rem 0.4rem #EEF2F5;
-  background-color: #FFF;
+  box-shadow: 0 0 1.5rem 0.4rem rgba(0,0,0,0.10);
+  background-color: #FFFFFF;
 }
 
 <Panel
@@ -118,13 +212,60 @@ exports[`Panel should render correctly with width 1`] = `
     height="auto"
     width="200px"
   >
-    <div
-      className="c0"
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: ",
+              [Function],
+              ";
+  width: ",
+              [Function],
+              ";
+  min-width: ",
+              [Function],
+              ";
+  box-shadow: 0 0 1.5rem 0.4rem ",
+              [Function],
+              ";
+  background-color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="auto"
       width="200px"
     >
-      MyPanel
-    </div>
+      <div
+        className="c0"
+        height="auto"
+        width="200px"
+      >
+        MyPanel
+      </div>
+    </StyledComponent>
   </styled.div>
 </Panel>
 `;

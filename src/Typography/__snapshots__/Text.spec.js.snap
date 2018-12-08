@@ -2,12 +2,12 @@
 
 exports[`Text should render correctly 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   opacity: 1;
 }
 
@@ -27,25 +27,78 @@ exports[`Text should render correctly 1`] = `
     uppercase={false}
     weight={400}
   >
-    <span
-      className="c0"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="1rem"
+      uppercase={false}
+      weight={400}
     >
-      MyText
-    </span>
+      <span
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyText
+      </span>
+    </StyledComponent>
   </styled.span>
 </Text>
 `;
 
 exports[`Text should render correctly with capitalize 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: capitalize;
   font-style: normal;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   opacity: 1;
 }
 
@@ -65,25 +118,78 @@ exports[`Text should render correctly with capitalize 1`] = `
     uppercase={false}
     weight={400}
   >
-    <span
-      className="c0"
+    <StyledComponent
+      capitalize={true}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="1rem"
+      uppercase={false}
+      weight={400}
     >
-      MyText
-    </span>
+      <span
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyText
+      </span>
+    </StyledComponent>
   </styled.span>
 </Text>
 `;
 
 exports[`Text should render correctly with italic 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: none;
   font-style: italic;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   opacity: 1;
 }
 
@@ -103,25 +209,78 @@ exports[`Text should render correctly with italic 1`] = `
     uppercase={false}
     weight={400}
   >
-    <span
-      className="c0"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={true}
       opacity={1}
       size="1rem"
+      uppercase={false}
+      weight={400}
     >
-      MyText
-    </span>
+      <span
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyText
+      </span>
+    </StyledComponent>
   </styled.span>
 </Text>
 `;
 
 exports[`Text should render correctly with opacity 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   opacity: 0.5;
 }
 
@@ -141,25 +300,78 @@ exports[`Text should render correctly with opacity 1`] = `
     uppercase={false}
     weight={400}
   >
-    <span
-      className="c0"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={0.5}
       size="1rem"
+      uppercase={false}
+      weight={400}
     >
-      MyText
-    </span>
+      <span
+        className="c0"
+        opacity={0.5}
+        size="1rem"
+      >
+        MyText
+      </span>
+    </StyledComponent>
   </styled.span>
 </Text>
 `;
 
 exports[`Text should render correctly with size 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 32px;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   opacity: 1;
 }
 
@@ -179,25 +391,78 @@ exports[`Text should render correctly with size 1`] = `
     uppercase={false}
     weight={400}
   >
-    <span
-      className="c0"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="32px"
+      uppercase={false}
+      weight={400}
     >
-      MyText
-    </span>
+      <span
+        className="c0"
+        opacity={1}
+        size="32px"
+      >
+        MyText
+      </span>
+    </StyledComponent>
   </styled.span>
 </Text>
 `;
 
 exports[`Text should render correctly with uppercase 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: uppercase;
   font-style: normal;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   opacity: 1;
 }
 
@@ -217,25 +482,78 @@ exports[`Text should render correctly with uppercase 1`] = `
     uppercase={true}
     weight={400}
   >
-    <span
-      className="c0"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="1rem"
+      uppercase={true}
+      weight={400}
     >
-      MyText
-    </span>
+      <span
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyText
+      </span>
+    </StyledComponent>
   </styled.span>
 </Text>
 `;
 
 exports[`Text should render correctly with weight 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 500;
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   opacity: 1;
 }
 
@@ -255,13 +573,66 @@ exports[`Text should render correctly with weight 1`] = `
     uppercase={false}
     weight={500}
   >
-    <span
-      className="c0"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="1rem"
+      uppercase={false}
+      weight={500}
     >
-      MyText
-    </span>
+      <span
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyText
+      </span>
+    </StyledComponent>
   </styled.span>
 </Text>
 `;

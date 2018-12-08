@@ -14,6 +14,7 @@ exports[`NavbarDropdownContent should render correctly 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  min-width: 200px;
 }
 
 .c1 > :last-child {
@@ -41,8 +42,8 @@ exports[`NavbarDropdownContent should render correctly 1`] = `
     padding: 1.5rem;
     border-radius: 0.25rem;
     box-sizing: border-box;
-    background-color: #FFF;
-    box-shadow: 0 10px 60px -10px rgba(0,0,0,0.25), 0 8px 16px rgba(0,0,0,0.10);
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 60px -10px rgba(0,0,0,0.30), 0 8px 16px rgba(0,0,0,0.30);
   }
 
   .c1::after,
@@ -59,14 +60,14 @@ exports[`NavbarDropdownContent should render correctly 1`] = `
 
   .c1::after {
     border-color: transparent;
-    border-bottom-color: #FFF;
+    border-bottom-color: #FFFFFF;
     border-width: 10px;
     margin-left: -10px;
   }
 
   .c1::before {
     border-color: transparent;
-    border-bottom-color: #FFF;
+    border-bottom-color: #FFFFFF;
     border-width: 12px;
     margin-left: -12px;
   }
@@ -74,15 +75,139 @@ exports[`NavbarDropdownContent should render correctly 1`] = `
 
 <NavbarDropdownContent>
   <styled.div>
-    <div
-      className="c0"
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  width: 100%;
+
+  @media (min-width: ",
+              [Function],
+              ") {
+    position: absolute;
+    width: auto;
+    margin: 0.25rem 0;
+    background-color: transparent;
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
     >
-      <styled.div>
-        <div
-          className="c1"
-        />
-      </styled.div>
-    </div>
+      <div
+        className="c0"
+      >
+        <styled.div>
+          <StyledComponent
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+
+  & > :last-child {
+    margin-bottom: 0 !important;
+  }
+
+  @media (max-width: ",
+                    [Function],
+                    ") {
+    padding: 1.1rem 0;
+  }
+
+  @media (min-width: ",
+                    [Function],
+                    ") {
+    margin-top: 15px;
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    background-color: ",
+                    [Function],
+                    ";
+    box-shadow: 0 10px 60px -10px ",
+                    [Function],
+                    ",
+      0 8px 16px ",
+                    [Function],
+                    ";
+
+    &::after,
+    &::before {
+      bottom: 100%;
+      left: 10%;
+      border: solid transparent;
+      content: ' ';
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    &::after {
+      border-color: transparent;
+      border-bottom-color: ",
+                    [Function],
+                    ";
+      border-width: 10px;
+      margin-left: -10px;
+    }
+
+    &::before {
+      border-color: transparent;
+      border-bottom-color: ",
+                    [Function],
+                    ";
+      border-width: 12px;
+      margin-left: -12px;
+    }
+  }
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+          >
+            <div
+              className="c1"
+            />
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
   </styled.div>
 </NavbarDropdownContent>
 `;

@@ -7,14 +7,14 @@ exports[`TextArea should render correctly 1`] = `
   height: 100px;
   padding: 0.7rem 1.4rem;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   border-width: 1px;
-  border-color: #CCC;
+  border-color: #D3D3D3;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -25,50 +25,126 @@ exports[`TextArea should render correctly 1`] = `
 }
 
 .c0:disabled {
-  color: #545456;
-  background: #FFF;
+  color: rgba(0,0,0,0.80);
+  background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 <TextArea
   disabled={false}
-  e2e="defaultTextArea"
   height="100px"
   width="100%"
 >
   <styled.textarea
     disabled={false}
-    e2e="defaultTextArea"
     height="100px"
     width="100%"
   >
-    <textarea
-      className="c0"
-      data-e2e="defaultTextArea"
+    <StyledComponent
       disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "name": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: block;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
+  padding: 0.7rem 1.4rem;
+  box-sizing: border-box;
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  color: ",
+              [Function],
+              ";
+  border-width: 1px;
+  border-color: ",
+              [Function],
+              ";
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: ",
+              [Function],
+              ";
+  background-image: none;
+  outline-width: 0;
+  user-select: text;
+  resize: none;
+
+  &:disabled {
+    color: ",
+              [Function],
+              ";
+    background: ",
+              [Function],
+              ";
+    cursor: not-allowed;
+  }
+
+  &::placeholder {
+    color: ",
+              [Function],
+              ";
+    font-size: 0.875rem;
+  }
+",
+            ],
+          },
+          "displayName": "styled.textarea",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "textarea",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="100px"
       width="100%"
-    />
+    >
+      <textarea
+        className="c0"
+        disabled={false}
+        height="100px"
+        width="100%"
+      />
+    </StyledComponent>
   </styled.textarea>
 </TextArea>
 `;
@@ -80,14 +156,14 @@ exports[`TextArea should render correctly with disabled 1`] = `
   height: 100px;
   padding: 0.7rem 1.4rem;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   border-width: 1px;
-  border-color: #CCC;
+  border-color: #D3D3D3;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -98,123 +174,126 @@ exports[`TextArea should render correctly with disabled 1`] = `
 }
 
 .c0:disabled {
-  color: #545456;
-  background: #FFF;
+  color: rgba(0,0,0,0.80);
+  background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 <TextArea
   disabled={true}
-  e2e="defaultTextArea"
   height="100px"
   width="100%"
 >
   <styled.textarea
     disabled={true}
-    e2e="defaultTextArea"
     height="100px"
     width="100%"
   >
-    <textarea
-      className="c0"
-      data-e2e="defaultTextArea"
+    <StyledComponent
       disabled={true}
-      height="100px"
-      width="100%"
-    />
-  </styled.textarea>
-</TextArea>
-`;
-
-exports[`TextArea should render correctly with e2e 1`] = `
-.c0 {
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "name": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
   display: block;
-  width: 100%;
-  height: 100px;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
   padding: 0.7rem 1.4rem;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: ",
+              [Function],
+              ";
   font-size: 1rem;
-  color: #545456;
+  color: ",
+              [Function],
+              ";
   border-width: 1px;
-  border-color: #CCC;
+  border-color: ",
+              [Function],
+              ";
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFF;
+  background-color: ",
+              [Function],
+              ";
   background-image: none;
   outline-width: 0;
-  -webkit-user-select: text;
-  -moz-user-select: text;
-  -ms-user-select: text;
   user-select: text;
   resize: none;
-}
 
-.c0:disabled {
-  color: #545456;
-  background: #FFF;
-  cursor: not-allowed;
-}
+  &:disabled {
+    color: ",
+              [Function],
+              ";
+    background: ",
+              [Function],
+              ";
+    cursor: not-allowed;
+  }
 
-.c0::-webkit-input-placeholder {
-  color: #999B9E;
-  font-size: 0.875rem;
-}
-
-.c0::-moz-placeholder {
-  color: #999B9E;
-  font-size: 0.875rem;
-}
-
-.c0:-ms-input-placeholder {
-  color: #999B9E;
-  font-size: 0.875rem;
-}
-
-.c0::placeholder {
-  color: #999B9E;
-  font-size: 0.875rem;
-}
-
-<TextArea
-  disabled={false}
-  e2e="E2ELabel"
-  height="100px"
-  width="100%"
->
-  <styled.textarea
-    disabled={false}
-    e2e="E2ELabel"
-    height="100px"
-    width="100%"
-  >
-    <textarea
-      className="c0"
-      data-e2e="E2ELabel"
-      disabled={false}
+  &::placeholder {
+    color: ",
+              [Function],
+              ";
+    font-size: 0.875rem;
+  }
+",
+            ],
+          },
+          "displayName": "styled.textarea",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "textarea",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="100px"
       width="100%"
-    />
+    >
+      <textarea
+        className="c0"
+        disabled={true}
+        height="100px"
+        width="100%"
+      />
+    </StyledComponent>
   </styled.textarea>
 </TextArea>
 `;
@@ -226,14 +305,14 @@ exports[`TextArea should render correctly with height 1`] = `
   height: 200px;
   padding: 0.7rem 1.4rem;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   border-width: 1px;
-  border-color: #CCC;
+  border-color: #D3D3D3;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -244,50 +323,126 @@ exports[`TextArea should render correctly with height 1`] = `
 }
 
 .c0:disabled {
-  color: #545456;
-  background: #FFF;
+  color: rgba(0,0,0,0.80);
+  background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 <TextArea
   disabled={false}
-  e2e="defaultTextArea"
   height="200px"
   width="100%"
 >
   <styled.textarea
     disabled={false}
-    e2e="defaultTextArea"
     height="200px"
     width="100%"
   >
-    <textarea
-      className="c0"
-      data-e2e="defaultTextArea"
+    <StyledComponent
       disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "name": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: block;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
+  padding: 0.7rem 1.4rem;
+  box-sizing: border-box;
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  color: ",
+              [Function],
+              ";
+  border-width: 1px;
+  border-color: ",
+              [Function],
+              ";
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: ",
+              [Function],
+              ";
+  background-image: none;
+  outline-width: 0;
+  user-select: text;
+  resize: none;
+
+  &:disabled {
+    color: ",
+              [Function],
+              ";
+    background: ",
+              [Function],
+              ";
+    cursor: not-allowed;
+  }
+
+  &::placeholder {
+    color: ",
+              [Function],
+              ";
+    font-size: 0.875rem;
+  }
+",
+            ],
+          },
+          "displayName": "styled.textarea",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "textarea",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="200px"
       width="100%"
-    />
+    >
+      <textarea
+        className="c0"
+        disabled={false}
+        height="200px"
+        width="100%"
+      />
+    </StyledComponent>
   </styled.textarea>
 </TextArea>
 `;
@@ -299,14 +454,14 @@ exports[`TextArea should render correctly with name 1`] = `
   height: 100px;
   padding: 0.7rem 1.4rem;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   border-width: 1px;
-  border-color: #CCC;
+  border-color: #D3D3D3;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -317,53 +472,130 @@ exports[`TextArea should render correctly with name 1`] = `
 }
 
 .c0:disabled {
-  color: #545456;
-  background: #FFF;
+  color: rgba(0,0,0,0.80);
+  background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 <TextArea
   disabled={false}
-  e2e="defaultTextArea"
   height="100px"
   name="mytextarea"
   width="100%"
 >
   <styled.textarea
     disabled={false}
-    e2e="defaultTextArea"
     height="100px"
     name="mytextarea"
     width="100%"
   >
-    <textarea
-      className="c0"
-      data-e2e="defaultTextArea"
+    <StyledComponent
       disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "name": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: block;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
+  padding: 0.7rem 1.4rem;
+  box-sizing: border-box;
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  color: ",
+              [Function],
+              ";
+  border-width: 1px;
+  border-color: ",
+              [Function],
+              ";
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: ",
+              [Function],
+              ";
+  background-image: none;
+  outline-width: 0;
+  user-select: text;
+  resize: none;
+
+  &:disabled {
+    color: ",
+              [Function],
+              ";
+    background: ",
+              [Function],
+              ";
+    cursor: not-allowed;
+  }
+
+  &::placeholder {
+    color: ",
+              [Function],
+              ";
+    font-size: 0.875rem;
+  }
+",
+            ],
+          },
+          "displayName": "styled.textarea",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "textarea",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="100px"
       name="mytextarea"
       width="100%"
-    />
+    >
+      <textarea
+        className="c0"
+        disabled={false}
+        height="100px"
+        name="mytextarea"
+        width="100%"
+      />
+    </StyledComponent>
   </styled.textarea>
 </TextArea>
 `;
@@ -375,14 +607,14 @@ exports[`TextArea should render correctly with value 1`] = `
   height: 100px;
   padding: 0.7rem 1.4rem;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   border-width: 1px;
-  border-color: #CCC;
+  border-color: #D3D3D3;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -393,53 +625,130 @@ exports[`TextArea should render correctly with value 1`] = `
 }
 
 .c0:disabled {
-  color: #545456;
-  background: #FFF;
+  color: rgba(0,0,0,0.80);
+  background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 <TextArea
   disabled={false}
-  e2e="defaultTextArea"
   height="100px"
   value="Hello dear friend"
   width="100%"
 >
   <styled.textarea
     disabled={false}
-    e2e="defaultTextArea"
     height="100px"
     value="Hello dear friend"
     width="100%"
   >
-    <textarea
-      className="c0"
-      data-e2e="defaultTextArea"
+    <StyledComponent
       disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "name": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: block;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
+  padding: 0.7rem 1.4rem;
+  box-sizing: border-box;
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  color: ",
+              [Function],
+              ";
+  border-width: 1px;
+  border-color: ",
+              [Function],
+              ";
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: ",
+              [Function],
+              ";
+  background-image: none;
+  outline-width: 0;
+  user-select: text;
+  resize: none;
+
+  &:disabled {
+    color: ",
+              [Function],
+              ";
+    background: ",
+              [Function],
+              ";
+    cursor: not-allowed;
+  }
+
+  &::placeholder {
+    color: ",
+              [Function],
+              ";
+    font-size: 0.875rem;
+  }
+",
+            ],
+          },
+          "displayName": "styled.textarea",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "textarea",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="100px"
       value="Hello dear friend"
       width="100%"
-    />
+    >
+      <textarea
+        className="c0"
+        disabled={false}
+        height="100px"
+        value="Hello dear friend"
+        width="100%"
+      />
+    </StyledComponent>
   </styled.textarea>
 </TextArea>
 `;
@@ -451,14 +760,14 @@ exports[`TextArea should render correctly with width 1`] = `
   height: 100px;
   padding: 0.7rem 1.4rem;
   box-sizing: border-box;
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: #545456;
+  color: rgba(0,0,0,0.80);
   border-width: 1px;
-  border-color: #CCC;
+  border-color: #D3D3D3;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFF;
+  background-color: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -469,50 +778,126 @@ exports[`TextArea should render correctly with width 1`] = `
 }
 
 .c0:disabled {
-  color: #545456;
-  background: #FFF;
+  color: rgba(0,0,0,0.80);
+  background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: #999B9E;
+  color: rgba(0,0,0,0.40);
   font-size: 0.875rem;
 }
 
 <TextArea
   disabled={false}
-  e2e="defaultTextArea"
   height="100px"
   width="200px"
 >
   <styled.textarea
     disabled={false}
-    e2e="defaultTextArea"
     height="100px"
     width="200px"
   >
-    <textarea
-      className="c0"
-      data-e2e="defaultTextArea"
+    <StyledComponent
       disabled={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "name": [Function],
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: block;
+  width: ",
+              [Function],
+              ";
+  height: ",
+              [Function],
+              ";
+  padding: 0.7rem 1.4rem;
+  box-sizing: border-box;
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  color: ",
+              [Function],
+              ";
+  border-width: 1px;
+  border-color: ",
+              [Function],
+              ";
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: ",
+              [Function],
+              ";
+  background-image: none;
+  outline-width: 0;
+  user-select: text;
+  resize: none;
+
+  &:disabled {
+    color: ",
+              [Function],
+              ";
+    background: ",
+              [Function],
+              ";
+    cursor: not-allowed;
+  }
+
+  &::placeholder {
+    color: ",
+              [Function],
+              ";
+    font-size: 0.875rem;
+  }
+",
+            ],
+          },
+          "displayName": "styled.textarea",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "textarea",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
       height="100px"
       width="200px"
-    />
+    >
+      <textarea
+        className="c0"
+        disabled={false}
+        height="100px"
+        width="200px"
+      />
+    </StyledComponent>
   </styled.textarea>
 </TextArea>
 `;

@@ -2,27 +2,24 @@
 
 exports[`Link should render correctly 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: #990000;
   opacity: 1;
   cursor: pointer;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:hover {
-  color: #004A7C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #800000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 <Link
   capitalize={false}
-  e2e="defaultLink"
   italic={false}
   opacity={1}
   size="1rem"
@@ -31,48 +28,104 @@ exports[`Link should render correctly 1`] = `
 >
   <styled.a
     capitalize={false}
-    e2e="defaultLink"
     italic={false}
     opacity={1}
     size="1rem"
     uppercase={false}
     weight={400}
   >
-    <a
-      className="c0"
-      data-e2e="defaultLink"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+  cursor: pointer;
+
+  &:hover {
+    color: ",
+              [Function],
+              ";
+    text-decoration: underline;
+  }
+",
+            ],
+          },
+          "displayName": "styled.a",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="1rem"
+      uppercase={false}
+      weight={400}
     >
-      MyLink
-    </a>
+      <a
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyLink
+      </a>
+    </StyledComponent>
   </styled.a>
 </Link>
 `;
 
 exports[`Link should render correctly with capitalize 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: capitalize;
   font-style: normal;
-  color: #545456;
+  color: #990000;
   opacity: 1;
   cursor: pointer;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:hover {
-  color: #004A7C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #800000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 <Link
   capitalize={true}
-  e2e="defaultLink"
   italic={false}
   opacity={1}
   size="1rem"
@@ -81,48 +134,104 @@ exports[`Link should render correctly with capitalize 1`] = `
 >
   <styled.a
     capitalize={true}
-    e2e="defaultLink"
     italic={false}
     opacity={1}
     size="1rem"
     uppercase={false}
     weight={400}
   >
-    <a
-      className="c0"
-      data-e2e="defaultLink"
+    <StyledComponent
+      capitalize={true}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+  cursor: pointer;
+
+  &:hover {
+    color: ",
+              [Function],
+              ";
+    text-decoration: underline;
+  }
+",
+            ],
+          },
+          "displayName": "styled.a",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="1rem"
+      uppercase={false}
+      weight={400}
     >
-      MyLink
-    </a>
+      <a
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyLink
+      </a>
+    </StyledComponent>
   </styled.a>
 </Link>
 `;
 
 exports[`Link should render correctly with italic 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: none;
   font-style: italic;
-  color: #545456;
+  color: #990000;
   opacity: 1;
   cursor: pointer;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:hover {
-  color: #004A7C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #800000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 <Link
   capitalize={false}
-  e2e="defaultLink"
   italic={true}
   opacity={1}
   size="1rem"
@@ -131,48 +240,104 @@ exports[`Link should render correctly with italic 1`] = `
 >
   <styled.a
     capitalize={false}
-    e2e="defaultLink"
     italic={true}
     opacity={1}
     size="1rem"
     uppercase={false}
     weight={400}
   >
-    <a
-      className="c0"
-      data-e2e="defaultLink"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+  cursor: pointer;
+
+  &:hover {
+    color: ",
+              [Function],
+              ";
+    text-decoration: underline;
+  }
+",
+            ],
+          },
+          "displayName": "styled.a",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={true}
       opacity={1}
       size="1rem"
+      uppercase={false}
+      weight={400}
     >
-      MyLink
-    </a>
+      <a
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyLink
+      </a>
+    </StyledComponent>
   </styled.a>
 </Link>
 `;
 
 exports[`Link should render correctly with opacity 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: #990000;
   opacity: 0.5;
   cursor: pointer;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:hover {
-  color: #004A7C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #800000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 <Link
   capitalize={false}
-  e2e="defaultLink"
   italic={false}
   opacity={0.5}
   size="1rem"
@@ -181,48 +346,104 @@ exports[`Link should render correctly with opacity 1`] = `
 >
   <styled.a
     capitalize={false}
-    e2e="defaultLink"
     italic={false}
     opacity={0.5}
     size="1rem"
     uppercase={false}
     weight={400}
   >
-    <a
-      className="c0"
-      data-e2e="defaultLink"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+  cursor: pointer;
+
+  &:hover {
+    color: ",
+              [Function],
+              ";
+    text-decoration: underline;
+  }
+",
+            ],
+          },
+          "displayName": "styled.a",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={0.5}
       size="1rem"
+      uppercase={false}
+      weight={400}
     >
-      MyLink
-    </a>
+      <a
+        className="c0"
+        opacity={0.5}
+        size="1rem"
+      >
+        MyLink
+      </a>
+    </StyledComponent>
   </styled.a>
 </Link>
 `;
 
 exports[`Link should render correctly with size 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 32px;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: #990000;
   opacity: 1;
   cursor: pointer;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:hover {
-  color: #004A7C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #800000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 <Link
   capitalize={false}
-  e2e="defaultLink"
   italic={false}
   opacity={1}
   size="32px"
@@ -231,48 +452,104 @@ exports[`Link should render correctly with size 1`] = `
 >
   <styled.a
     capitalize={false}
-    e2e="defaultLink"
     italic={false}
     opacity={1}
     size="32px"
     uppercase={false}
     weight={400}
   >
-    <a
-      className="c0"
-      data-e2e="defaultLink"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+  cursor: pointer;
+
+  &:hover {
+    color: ",
+              [Function],
+              ";
+    text-decoration: underline;
+  }
+",
+            ],
+          },
+          "displayName": "styled.a",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="32px"
+      uppercase={false}
+      weight={400}
     >
-      MyLink
-    </a>
+      <a
+        className="c0"
+        opacity={1}
+        size="32px"
+      >
+        MyLink
+      </a>
+    </StyledComponent>
   </styled.a>
 </Link>
 `;
 
 exports[`Link should render correctly with uppercase 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 1rem;
   text-transform: uppercase;
   font-style: normal;
-  color: #545456;
+  color: #990000;
   opacity: 1;
   cursor: pointer;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:hover {
-  color: #004A7C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #800000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 <Link
   capitalize={false}
-  e2e="defaultLink"
   italic={false}
   opacity={1}
   size="1rem"
@@ -281,48 +558,104 @@ exports[`Link should render correctly with uppercase 1`] = `
 >
   <styled.a
     capitalize={false}
-    e2e="defaultLink"
     italic={false}
     opacity={1}
     size="1rem"
     uppercase={true}
     weight={400}
   >
-    <a
-      className="c0"
-      data-e2e="defaultLink"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+  cursor: pointer;
+
+  &:hover {
+    color: ",
+              [Function],
+              ";
+    text-decoration: underline;
+  }
+",
+            ],
+          },
+          "displayName": "styled.a",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="1rem"
+      uppercase={true}
+      weight={400}
     >
-      MyLink
-    </a>
+      <a
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyLink
+      </a>
+    </StyledComponent>
   </styled.a>
 </Link>
 `;
 
 exports[`Link should render correctly with weight 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-weight: 500;
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: #545456;
+  color: #990000;
   opacity: 1;
   cursor: pointer;
-  -webkit-text-decoration: none;
-  text-decoration: none;
 }
 
 .c0:hover {
-  color: #004A7C;
-  -webkit-text-decoration: none;
-  text-decoration: none;
+  color: #800000;
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
 }
 
 <Link
   capitalize={false}
-  e2e="defaultLink"
   italic={false}
   opacity={1}
   size="1rem"
@@ -331,21 +664,80 @@ exports[`Link should render correctly with weight 1`] = `
 >
   <styled.a
     capitalize={false}
-    e2e="defaultLink"
     italic={false}
     opacity={1}
     size="1rem"
     uppercase={false}
     weight={500}
   >
-    <a
-      className="c0"
-      data-e2e="defaultLink"
+    <StyledComponent
+      capitalize={false}
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-weight: ",
+              [Function],
+              ";
+  font-size: ",
+              [Function],
+              ";
+  text-transform: ",
+              [Function],
+              ";
+  font-style: ",
+              [Function],
+              ";
+  color: ",
+              [Function],
+              ";
+  opacity: ",
+              [Function],
+              ";
+  cursor: pointer;
+
+  &:hover {
+    color: ",
+              [Function],
+              ";
+    text-decoration: underline;
+  }
+",
+            ],
+          },
+          "displayName": "styled.a",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "a",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      italic={false}
       opacity={1}
       size="1rem"
+      uppercase={false}
+      weight={500}
     >
-      MyLink
-    </a>
+      <a
+        className="c0"
+        opacity={1}
+        size="1rem"
+      >
+        MyLink
+      </a>
+    </StyledComponent>
   </styled.a>
 </Link>
 `;

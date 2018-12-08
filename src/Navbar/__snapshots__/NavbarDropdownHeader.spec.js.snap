@@ -2,10 +2,10 @@
 
 exports[`NavbarDropdownHeader should render correctly 1`] = `
 .c0 {
-  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-family: 'Roboto',sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  color: #FFF;
+  color: #990000;
   cursor: pointer;
   display: none;
 }
@@ -18,9 +18,51 @@ exports[`NavbarDropdownHeader should render correctly 1`] = `
 
 <NavbarDropdownHeader>
   <styled.span>
-    <span
-      className="c0"
-    />
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  font-weight: 600;
+  color: ",
+              [Function],
+              ";
+  cursor: pointer;
+  display: none;
+
+  @media (min-width: ",
+              [Function],
+              ") {
+    display: block;
+  }
+",
+            ],
+          },
+          "displayName": "styled.span",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "span",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <span
+        className="c0"
+      />
+    </StyledComponent>
   </styled.span>
 </NavbarDropdownHeader>
 `;
