@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterCategory should render correctly 1`] = `
+.c0 {
+  color: #040d25;
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+<FooterCategory>
+  <styled.h5>
+    <h5
+      className="c0"
+    >
+      FooterCategory
+    </h5>
+  </styled.h5>
+</FooterCategory>
+`;

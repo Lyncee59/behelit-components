@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarHeader should render correctly 1`] = `
+.c0 {
+  margin-right: 25px;
+}
+
+<NavbarHeader>
+  <styled.div>
+    <div
+      className="c0"
+    />
+  </styled.div>
+</NavbarHeader>
+`;

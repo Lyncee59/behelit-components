@@ -10,11 +10,11 @@ const CustomThemeProvider = (props) => (
 
 CustomThemeProvider.propTypes = {
   children: PropTypes.node,
-  theme: PropTypes.object.isRequired,
+  theme: PropTypes.object.isRequired
 }
 
 CustomThemeProvider.defaultProps = {
-  theme: defaultTheme,
+  theme: defaultTheme
 }
 
 export default CustomThemeProvider

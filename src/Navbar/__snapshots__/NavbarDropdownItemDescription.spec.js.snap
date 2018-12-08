@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarDropdownItemDescription should render correctly 1`] = `
+.c1 {
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-transform: none;
+  font-style: normal;
+  color: #545456;
+  opacity: 1;
+}
+
+.c0 {
+  color: rgba(255,255,255,0.50);
+}
+
+@media (min-width:48rem) {
+  .c0 {
+    color: #999B9E;
+  }
+}
+
+<NavbarDropdownItemDescription>
+  <Styled(Text)>
+    <Text
+      capitalize={false}
+      className="c0"
+      italic={false}
+      opacity={1}
+      size="0.875rem"
+      uppercase={false}
+      weight={500}
+    >
+      <styled.span
+        capitalize={false}
+        className="c0"
+        italic={false}
+        opacity={1}
+        size="0.875rem"
+        uppercase={false}
+        weight={500}
+      >
+        <span
+          className="c0 c1"
+          opacity={1}
+          size="0.875rem"
+        />
+      </styled.span>
+    </Text>
+  </Styled(Text)>
+</NavbarDropdownItemDescription>
+`;

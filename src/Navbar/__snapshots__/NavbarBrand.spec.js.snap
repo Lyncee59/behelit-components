@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarBrand should render correctly 1`] = `
+.c0 {
+  position: relative;
+  z-index: 1001;
+}
+
+<NavbarBrand
+  height="60px"
+>
+  <styled.div
+    height="60px"
+  >
+    <div
+      className="c0"
+      height="60px"
+    />
+  </styled.div>
+</NavbarBrand>
+`;
+
+exports[`NavbarBrand should render correctly with height 1`] = `
+.c0 {
+  position: relative;
+  z-index: 1001;
+}
+
+<NavbarBrand
+  height="60px"
+>
+  <styled.div
+    height="60px"
+  >
+    <div
+      className="c0"
+      height="60px"
+    />
+  </styled.div>
+</NavbarBrand>
+`;

@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterElement should render correctly 1`] = `
+.c0 {
+  display: block;
+  margin-bottom: 1.25rem;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+}
+
+<FooterElement>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      FooterElement
+    </div>
+  </styled.div>
+</FooterElement>
+`;

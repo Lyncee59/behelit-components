@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterGroup should render correctly 1`] = `
+.c0 {
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 12rem;
+  margin-bottom: 4rem;
+  margin-right: 2rem;
+  line-height: 2.5rem;
+}
+
+@media (max-width:48rem) {
+  .c0 {
+    margin-bottom: 4rem;
+  }
+}
+
+<FooterRow>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      FooterGroup
+    </div>
+  </styled.div>
+</FooterRow>
+`;

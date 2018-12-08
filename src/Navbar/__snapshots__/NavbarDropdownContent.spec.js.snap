@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarDropdownContent should render correctly 1`] = `
+.c0 {
+  width: 100%;
+}
+
+.c1 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.c1 > :last-child {
+  margin-bottom: 0 !important;
+}
+
+@media (min-width:48rem) {
+  .c0 {
+    position: absolute;
+    width: auto;
+    margin: 0.25rem 0;
+    background-color: transparent;
+  }
+}
+
+@media (max-width:48rem) {
+  .c1 {
+    padding: 1.1rem 0;
+  }
+}
+
+@media (min-width:48rem) {
+  .c1 {
+    margin-top: 15px;
+    padding: 1.5rem;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    background-color: #FFF;
+    box-shadow: 0 10px 60px -10px rgba(0,0,0,0.25), 0 8px 16px rgba(0,0,0,0.10);
+  }
+
+  .c1::after,
+  .c1::before {
+    bottom: 100%;
+    left: 10%;
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  .c1::after {
+    border-color: transparent;
+    border-bottom-color: #FFF;
+    border-width: 10px;
+    margin-left: -10px;
+  }
+
+  .c1::before {
+    border-color: transparent;
+    border-bottom-color: #FFF;
+    border-width: 12px;
+    margin-left: -12px;
+  }
+}
+
+<NavbarDropdownContent>
+  <styled.div>
+    <div
+      className="c0"
+    >
+      <styled.div>
+        <div
+          className="c1"
+        />
+      </styled.div>
+    </div>
+  </styled.div>
+</NavbarDropdownContent>
+`;

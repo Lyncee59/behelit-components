@@ -1,0 +1,283 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrandName should render correctly 1`] = `
+.c1 {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: none;
+  font-style: normal;
+  color: rgba(0,0,0,0.80);
+  opacity: 1;
+}
+
+.c0 {
+  color: #990000;
+}
+
+<BrandName
+  size="30px"
+>
+  <Styled(Text)
+    size="30px"
+  >
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "weight": 700,
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "Styled(Text)",
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        }
+      }
+      forwardedRef={null}
+      size="30px"
+    >
+      <Text
+        capitalize={false}
+        className="c0"
+        italic={false}
+        opacity={1}
+        size="30px"
+        uppercase={false}
+        weight={700}
+      >
+        <styled.span
+          capitalize={false}
+          className="c0"
+          italic={false}
+          opacity={1}
+          size="30px"
+          uppercase={false}
+          weight={700}
+        >
+          <StyledComponent
+            capitalize={false}
+            className="c0"
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  font-family: ",
+                    [Function],
+                    ";
+  font-weight: ",
+                    [Function],
+                    ";
+  font-size: ",
+                    [Function],
+                    ";
+  text-transform: ",
+                    [Function],
+                    ";
+  font-style: ",
+                    [Function],
+                    ";
+  color: ",
+                    [Function],
+                    ";
+  opacity: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            italic={false}
+            opacity={1}
+            size="30px"
+            uppercase={false}
+            weight={700}
+          >
+            <span
+              className="c0 c1"
+              opacity={1}
+              size="30px"
+            >
+              Behelit
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </Text>
+    </StyledComponent>
+  </Styled(Text)>
+</BrandName>
+`;
+
+exports[`BrandName should render correctly with size 1`] = `
+.c1 {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 700;
+  font-size: 100px;
+  text-transform: none;
+  font-style: normal;
+  color: rgba(0,0,0,0.80);
+  opacity: 1;
+}
+
+.c0 {
+  color: #990000;
+}
+
+<BrandName
+  size="100px"
+>
+  <Styled(Text)
+    size="100px"
+  >
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [
+            Object {
+              "weight": 700,
+            },
+          ],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  color: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "Styled(Text)",
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+          Symbol(Symbol.hasInstance): [Function],
+        }
+      }
+      forwardedRef={null}
+      size="100px"
+    >
+      <Text
+        capitalize={false}
+        className="c0"
+        italic={false}
+        opacity={1}
+        size="100px"
+        uppercase={false}
+        weight={700}
+      >
+        <styled.span
+          capitalize={false}
+          className="c0"
+          italic={false}
+          opacity={1}
+          size="100px"
+          uppercase={false}
+          weight={700}
+        >
+          <StyledComponent
+            capitalize={false}
+            className="c0"
+            forwardedClass={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  font-family: ",
+                    [Function],
+                    ";
+  font-weight: ",
+                    [Function],
+                    ";
+  font-size: ",
+                    [Function],
+                    ";
+  text-transform: ",
+                    [Function],
+                    ";
+  font-style: ",
+                    [Function],
+                    ";
+  color: ",
+                    [Function],
+                    ";
+  opacity: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.span",
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": "span",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            italic={false}
+            opacity={1}
+            size="100px"
+            uppercase={false}
+            weight={700}
+          >
+            <span
+              className="c0 c1"
+              opacity={1}
+              size="100px"
+            >
+              Behelit
+            </span>
+          </StyledComponent>
+        </styled.span>
+      </Text>
+    </StyledComponent>
+  </Styled(Text)>
+</BrandName>
+`;

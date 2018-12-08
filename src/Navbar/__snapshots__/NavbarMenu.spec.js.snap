@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavbarMenu should render correctly 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 4.5rem 1.5rem 1.5rem 1.5rem;
+  box-sizing: border-box;
+  background-color: #004A7C;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  z-index: 1000;
+}
+
+@media (min-width:48rem) {
+  .c0 {
+    position: relative;
+    top: initial;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: transparent;
+  }
+}
+
+<NavbarMenu
+  toggled={false}
+>
+  <styled.div
+    toggled={false}
+  >
+    <div
+      className="c0"
+    />
+  </styled.div>
+</NavbarMenu>
+`;
+
+exports[`NavbarMenu should render correctly with toggled 1`] = `
+.c0 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column-reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  padding: 4.5rem 1.5rem 1.5rem 1.5rem;
+  box-sizing: border-box;
+  background-color: #004A7C;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  z-index: 1000;
+}
+
+@media (min-width:48rem) {
+  .c0 {
+    position: relative;
+    top: initial;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: transparent;
+  }
+}
+
+<NavbarMenu
+  toggled={true}
+>
+  <styled.div
+    toggled={true}
+  >
+    <div
+      className="c0"
+    />
+  </styled.div>
+</NavbarMenu>
+`;

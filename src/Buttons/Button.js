@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+
 import { prop, theme } from '../Tools/interpolation'
 
 const Wrapper = styled.button.attrs({
@@ -12,13 +13,13 @@ const Wrapper = styled.button.attrs({
   align-items: center;
   height: 2.5rem;
   line-height: 2.5rem;
-  width: 100%;
+  width: ${prop('width')};
   padding: 0 1rem;
   box-sizing: border-box;
   color: ${theme('buttonColor')};
   background-color: ${theme('buttonBackgroundColor')};
   border: none;
-  border-radius: 0.125rem;
+  border-radius: 0.25rem;
   cursor: ${(props) => props.disabled ? 'not-allowed' : 'pointer'};
   outline: none;
   transition: all 0.3s ease 0s;
@@ -40,13 +41,15 @@ Button.propTypes = {
   bounced: PropTypes.bool,
   children: PropTypes.node,
   disabled: PropTypes.bool,
-  type: PropTypes.oneOf(['button', 'reset', 'submit'])
+  type: PropTypes.oneOf(['button', 'reset', 'submit']),
+  width: PropTypes.string
 }
 
 Button.defaultProps = {
   bounced: false,
   disabled: false,
-  type: 'button'
+  type: 'button',
+  width: '100%'
 }
 
 export default Button

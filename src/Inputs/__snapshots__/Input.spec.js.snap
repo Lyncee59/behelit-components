@@ -1,0 +1,530 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render correctly 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  height: 2.7rem;
+  padding: 0 1.4rem;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 1rem;
+  color: #545456;
+  border-width: 1px;
+  border-color: #CCC;
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: #FFF;
+  background-image: none;
+  outline-width: 0;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.c0:disabled {
+  color: #545456;
+  background: #FFF;
+  cursor: not-allowed;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0::-moz-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0:-ms-input-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0::placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+<Input
+  disabled={false}
+  e2e="defaultInput"
+  type="text"
+  width="100%"
+>
+  <styled.input
+    disabled={false}
+    e2e="defaultInput"
+    type="text"
+    width="100%"
+  >
+    <input
+      className="c0"
+      data-e2e="defaultInput"
+      disabled={false}
+      type="text"
+      width="100%"
+    />
+  </styled.input>
+</Input>
+`;
+
+exports[`Input should render correctly with disabled 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  height: 2.7rem;
+  padding: 0 1.4rem;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 1rem;
+  color: #545456;
+  border-width: 1px;
+  border-color: #CCC;
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: #FFF;
+  background-image: none;
+  outline-width: 0;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.c0:disabled {
+  color: #545456;
+  background: #FFF;
+  cursor: not-allowed;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0::-moz-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0:-ms-input-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0::placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+<Input
+  disabled={true}
+  e2e="defaultInput"
+  type="text"
+  width="100%"
+>
+  <styled.input
+    disabled={true}
+    e2e="defaultInput"
+    type="text"
+    width="100%"
+  >
+    <input
+      className="c0"
+      data-e2e="defaultInput"
+      disabled={true}
+      type="text"
+      width="100%"
+    />
+  </styled.input>
+</Input>
+`;
+
+exports[`Input should render correctly with type 1`] = `
+.c0 {
+  display: block;
+  width: 100%;
+  height: 2.7rem;
+  padding: 0 1.4rem;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 1rem;
+  color: #545456;
+  border-width: 1px;
+  border-color: #CCC;
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: #FFF;
+  background-image: none;
+  outline-width: 0;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.c0:disabled {
+  color: #545456;
+  background: #FFF;
+  cursor: not-allowed;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0::-moz-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0:-ms-input-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0::placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+<Input
+  disabled={false}
+  e2e="defaultInput"
+  type="password"
+  width="100%"
+>
+  <styled.input
+    disabled={false}
+    e2e="defaultInput"
+    type="password"
+    width="100%"
+  >
+    <input
+      className="c0"
+      data-e2e="defaultInput"
+      disabled={false}
+      type="password"
+      width="100%"
+    />
+  </styled.input>
+</Input>
+`;
+
+exports[`Input should render correctly with type="checkbox" 1`] = `
+.c0 input:checked + label::before {
+  background-color: #10ADE4;
+  border-color: #10ADE4;
+}
+
+.c0 input:checked + label::after {
+  opacity: 1;
+  -webkit-transform: scale(1) rotate(-45deg);
+  -ms-transform: scale(1) rotate(-45deg);
+  transform: scale(1) rotate(-45deg);
+}
+
+.c1 {
+  border: 0;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  visibility: visible;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c2 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 1rem;
+  padding-left: 1.5rem;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 1rem;
+}
+
+.c2::before {
+  background-color: #FFF;
+  border: 2px solid #CCC;
+  box-sizing: border-box;
+  content: '';
+  height: 16px;
+  left: 1px;
+  position: absolute;
+  top: calc(50% - 0.5rem);
+  width: 16px;
+}
+
+.c2::after {
+  background: none;
+  border-left: 1px solid #FFF;
+  border-bottom: 1px solid #FFF;
+  box-sizing: border-box;
+  content: '';
+  height: 5px;
+  left: 0.3125rem;
+  margin-top: -0.1875rem;
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  -webkit-transform: scale(0) rotate(-45deg);
+  -ms-transform: scale(0) rotate(-45deg);
+  transform: scale(0) rotate(-45deg);
+  width: 9px;
+}
+
+<Input
+  disabled={false}
+  e2e="defaultInput"
+  type="checkbox"
+  width="100%"
+>
+  <Checkbox
+    disabled={false}
+    e2e="defaultInput"
+    type="checkbox"
+    width="100%"
+  >
+    <styled.div>
+      <div
+        className="c0"
+      >
+        <styled.input
+          disabled={false}
+          e2e="defaultInput"
+          type="checkbox"
+          width="100%"
+        >
+          <input
+            className="c1"
+            data-e2e="defaultInput"
+            disabled={false}
+            id="-checkbox"
+            type="checkbox"
+            width="100%"
+          />
+        </styled.input>
+        <styled.label>
+          <label
+            className="c2"
+            htmlFor="-checkbox"
+          />
+        </styled.label>
+      </div>
+    </styled.div>
+  </Checkbox>
+</Input>
+`;
+
+exports[`Input should render correctly with type="radio" 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  margin-right: 0.5rem;
+  background: #FFF;
+  border: 2px solid #CCC;
+  box-sizing: border-box;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+}
+
+.c1 {
+  position: absolute;
+  border: 0;
+  -webkit-clip: rect(0,0,0,0);
+  clip: rect(0,0,0,0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  visibility: visible;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.c1:checked ~ label .c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-color: #10ADE4;
+}
+
+.c1:checked ~ label .c3::before {
+  border-radius: 51%;
+  content: '';
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  position: relative;
+  background: #10ADE4;
+}
+
+.c2 {
+  position: relative;
+  left: 1px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 1rem;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 1rem;
+}
+
+<Input
+  disabled={false}
+  e2e="defaultInput"
+  type="radio"
+  width="100%"
+>
+  <Radio
+    disabled={false}
+    e2e="defaultInput"
+    type="radio"
+    width="100%"
+  >
+    <styled.div>
+      <div
+        className="c0"
+      >
+        <styled.input
+          disabled={false}
+          e2e="defaultInput"
+          type="radio"
+          width="100%"
+        >
+          <input
+            className="c1"
+            data-e2e="defaultInput"
+            disabled={false}
+            id="-radio"
+            type="radio"
+            width="100%"
+          />
+        </styled.input>
+        <styled.label>
+          <label
+            className="c2"
+            htmlFor="-radio"
+          >
+            <styled.span>
+              <span
+                className="c3 c4"
+              />
+            </styled.span>
+          </label>
+        </styled.label>
+      </div>
+    </styled.div>
+  </Radio>
+</Input>
+`;
+
+exports[`Input should render correctly with width 1`] = `
+.c0 {
+  display: block;
+  width: 200px;
+  height: 2.7rem;
+  padding: 0 1.4rem;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 1rem;
+  color: #545456;
+  border-width: 1px;
+  border-color: #CCC;
+  border-style: solid;
+  border-radius: 0.125rem;
+  background-color: #FFF;
+  background-image: none;
+  outline-width: 0;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.c0:disabled {
+  color: #545456;
+  background: #FFF;
+  cursor: not-allowed;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0::-moz-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0:-ms-input-placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+.c0::placeholder {
+  color: #999B9E;
+  font-size: 0.875rem;
+}
+
+<Input
+  disabled={false}
+  e2e="defaultInput"
+  type="text"
+  width="200px"
+>
+  <styled.input
+    disabled={false}
+    e2e="defaultInput"
+    type="text"
+    width="200px"
+  >
+    <input
+      className="c0"
+      data-e2e="defaultInput"
+      disabled={false}
+      type="text"
+      width="200px"
+    />
+  </styled.input>
+</Input>
+`;

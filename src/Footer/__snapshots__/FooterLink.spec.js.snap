@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FooterElement should render correctly 1`] = `
+.c1 {
+  font-family: 'IBM Plex Sans','Helvetica Neue',Arial,sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  text-transform: none;
+  font-style: normal;
+  color: #545456;
+  opacity: 1;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c1:hover {
+  color: #004A7C;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c0 {
+  position: relative;
+  white-space: nowrap;
+}
+
+<FooterLink>
+  <Styled(Link)>
+    <Link
+      capitalize={false}
+      className="c0"
+      e2e="defaultLink"
+      italic={false}
+      opacity={1}
+      size="1rem"
+      uppercase={false}
+      weight={500}
+    >
+      <styled.a
+        capitalize={false}
+        className="c0"
+        e2e="defaultLink"
+        italic={false}
+        opacity={1}
+        size="1rem"
+        uppercase={false}
+        weight={500}
+      >
+        <a
+          className="c0 c1"
+          data-e2e="defaultLink"
+          opacity={1}
+          size="1rem"
+        >
+          FooterLink
+        </a>
+      </styled.a>
+    </Link>
+  </Styled(Link)>
+</FooterLink>
+`;

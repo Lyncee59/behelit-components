@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render correctly 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+@media (min-width:48rem) {
+  .c0 {
+    padding: 0 3rem;
+  }
+}
+
+<Navbar
+  height="60px"
+>
+  <styled.div
+    height="60px"
+  >
+    <div
+      className="c0"
+      height="60px"
+    />
+  </styled.div>
+</Navbar>
+`;
+
+exports[`Navbar should render correctly with height 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+@media (min-width:48rem) {
+  .c0 {
+    padding: 0 3rem;
+  }
+}
+
+<Navbar
+  height="60px"
+>
+  <styled.div
+    height="60px"
+  >
+    <div
+      className="c0"
+      height="60px"
+    />
+  </styled.div>
+</Navbar>
+`;

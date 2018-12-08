@@ -1,8 +1,8 @@
 import React from 'react'
 import { configure, addDecorator } from '@storybook/react'
 import { withInfo } from '@storybook/addon-info'
-import withBackgrounds from '@storybook/addon-backgrounds'
-import { palette, ThemeProvider } from '../src'
+import { withBackgrounds } from '@storybook/addon-backgrounds'
+import { DefaultPalette, ThemeProvider } from '../src'
 
 const req = require.context('../src', true, /stories\.js$/)
 
@@ -14,10 +14,10 @@ addDecorator((story, context) =>
   })(story)(context),
 )
 
-const colors = Object.keys(palette).map((x) => ({
+const colors = Object.keys(DefaultPalette).map((x) => ({
   name: x,
-  value: palette[x],
-  default: x === 'gray0',
+  value: DefaultPalette[x],
+  default: x === 'white',
 }))
 
 addDecorator(withBackgrounds(colors))
