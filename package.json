@@ -1,12 +1,13 @@
 {
   "name": "@behelit/components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Behelit components library",
   "main": "lib/index.js",
   "module": "esm/index.js",
   "scripts": {
     "start": "start-storybook -p 6006",
     "build": "node utils/build.js",
+    "prepare": "node utils/build.js",
     "build-storybook": "build-storybook",
     "build-icons": "node ./utils/generateIcons",
     "lint": "npm run ci:lint:js && npm run ci:lint:css",
