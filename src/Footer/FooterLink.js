@@ -4,10 +4,7 @@ import styled from 'styled-components'
 
 import Link from '../Links/Link'
 
-const Wrapper = styled(Link).attrs({
-  size: '1rem',
-  weight: 500
-})`
+const Wrapper = styled(Link)`
   position: relative;
   white-space: nowrap;
 `
@@ -15,7 +12,14 @@ const Wrapper = styled(Link).attrs({
 const FooterLink = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 FooterLink.propTypes = {
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  size: PropTypes.string,
+  weight: PropTypes.number
+}
+
+FooterLink.defaultProps = {
+  size: '1rem',
+  weight: 500
 }
 
 export default FooterLink

@@ -53,6 +53,11 @@ storiesOf('Typography/TextGroup', module)
       <Texts />
     </TextGroup>
   ))
+  .add('with space', () => (
+    <TextGroup space={false}>
+      <Texts />
+    </TextGroup>
+  ))
   .add('with align and inline', () => (
     <TextGroup align="right" inline={false}>
       <Texts />

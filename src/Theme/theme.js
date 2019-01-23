@@ -22,6 +22,7 @@ const theme = {
   inputPlaceholderColor: palette['black40'],
   linkColor: palette['crimson'],
   linkHoverColor: darken(0.05, palette['crimson']),
+  listItemColor: palette['crimson'],
   loaderColor: palette['crimson'],
   modalBackgroundColor: palette['black70'],
   modalBorderColor: palette['black30'],

@@ -67,4 +67,14 @@ describe('TextGroup', () => {
 
     expect(tree.find(TextGroup)).toMatchSnapshot()
   })
+
+  it('mount render correctly with inline', () => {
+    const tree = mountWithTheme(
+      <TextGroup space={false}>
+        <Texts />
+      </TextGroup>
+    )
+
+    expect(tree.find(TextGroup)).toMatchSnapshot()
+  })
 })

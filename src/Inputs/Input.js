@@ -4,10 +4,7 @@ import styled from 'styled-components'
 
 import { prop, theme } from '../Tools/interpolation'
 
-const Wrapper = styled.input.attrs({
-  name: prop('name'),
-  type: prop('type')
-})`
+const Wrapper = styled.input`
   display: block;
   width: ${prop('width')};
   height: 2.7rem;
