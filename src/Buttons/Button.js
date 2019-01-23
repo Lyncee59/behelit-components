@@ -4,9 +4,7 @@ import styled from 'styled-components'
 
 import { prop, theme } from '../Tools/interpolation'
 
-const Wrapper = styled.button.attrs({
-  type: prop('type')
-})`
+const Wrapper = styled.button`
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -33,9 +31,7 @@ const Wrapper = styled.button.attrs({
     transform: ${(props) => props.bounced ? 'scale(0.95)' : 'none'};
   }
 `
-const Button = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const Button = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 Button.propTypes = {
   bounced: PropTypes.bool,

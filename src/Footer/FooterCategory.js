@@ -14,9 +14,7 @@ const Wrapper = styled.h5`
   letter-spacing: 1px;
 `
 
-const FooterCategory = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const FooterCategory = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 FooterCategory.propTypes = {
   children: PropTypes.node

@@ -156,11 +156,7 @@ exports[`Button should render correctly 1`] = `
                 forwardedClass={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [
-                      Object {
-                        "type": [Function],
-                      },
-                    ],
+                    "attrs": Array [],
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-bdVaJa",
                       "isStatic": false,
@@ -255,11 +251,7 @@ exports[`Button should render correctly 1`] = `
                 forwardedClass={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [
-                      Object {
-                        "type": [Function],
-                      },
-                    ],
+                    "attrs": Array [],
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-bdVaJa",
                       "isStatic": false,
@@ -354,11 +346,7 @@ exports[`Button should render correctly 1`] = `
                 forwardedClass={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
-                    "attrs": Array [
-                      Object {
-                        "type": [Function],
-                      },
-                    ],
+                    "attrs": Array [],
                     "componentStyle": ComponentStyle {
                       "componentId": "sc-bdVaJa",
                       "isStatic": false,

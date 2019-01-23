@@ -10,7 +10,9 @@ exports[`ModalToggler should render correctly 1`] = `
   fill: #800000;
 }
 
-<ModalToggler>
+<ModalToggler
+  selectable={true}
+>
   <FasTimes
     selectable={true}
     size="28px"

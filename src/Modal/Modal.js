@@ -19,9 +19,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Modal = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const Modal = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 Modal.propTypes = {
   children: PropTypes.node,

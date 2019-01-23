@@ -6,22 +6,20 @@ import styled from 'styled-components'
 import { Text } from '../Typography'
 import { theme } from '../Tools/interpolation'
 
-const Wrapper = styled(Text).attrs({ weight: 700 })`
+const Wrapper = styled(Text)`
   color: ${theme('brandNameColor')};
 `
 
-const BrandName = (props) => (
-  <Wrapper {...props}>
-    Behelit
-  </Wrapper>
-)
+const BrandName = (props) => <Wrapper {...props}>Behelit</Wrapper>
 
 BrandName.propTypes = {
-  size: PropTypes.string
+  size: PropTypes.string,
+  weight: PropTypes.number
 }
 
 BrandName.defaultProps = {
-  size: '30px'
+  size: '30px',
+  weight: 700
 }
 
 export default BrandName

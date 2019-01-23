@@ -8,9 +8,7 @@ const Wrapper = styled.div`
   z-index: ${theme('navbarBrandZIndex')};
 `
 
-const NavbarBrand = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const NavbarBrand = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 NavbarBrand.propTypes = {
   children: PropTypes.node,

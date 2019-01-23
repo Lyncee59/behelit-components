@@ -16,9 +16,7 @@ const Wrapper = styled.div`
   background-color: ${theme('panelBackgroundColor')};
 `
 
-const Panel = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const Panel = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 Panel.propTypes = {
   children: PropTypes.node,

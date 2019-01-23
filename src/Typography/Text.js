@@ -24,9 +24,7 @@ const Wrapper = styled.span`
   opacity: ${prop('opacity')};
 `
 
-const Text = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const Text = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 Text.propTypes = {
   capitalize: PropTypes.bool,
@@ -35,7 +33,7 @@ Text.propTypes = {
   opacity: PropTypes.number,
   size: PropTypes.string,
   uppercase: PropTypes.bool,
-  weight: PropTypes.oneOf([100, 200, 300, 400, 500, 600, 700]),
+  weight: PropTypes.oneOf([100, 200, 300, 400, 500, 600, 700])
 }
 
 Text.defaultProps = {
@@ -44,7 +42,7 @@ Text.defaultProps = {
   opacity: 1,
   size: '1rem',
   uppercase: false,
-  weight: 400,
+  weight: 400
 }
 
 export default Text

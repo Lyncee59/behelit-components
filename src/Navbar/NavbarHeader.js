@@ -6,9 +6,7 @@ const Wrapper = styled.div`
   margin-right: 25px;
 `
 
-const NavbarHeader = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const NavbarHeader = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 NavbarHeader.propTypes = {
   children: PropTypes.node

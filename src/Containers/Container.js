@@ -18,9 +18,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Container = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const Container = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 Container.propTypes = {
   children: PropTypes.node,

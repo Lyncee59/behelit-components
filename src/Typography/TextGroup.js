@@ -13,9 +13,7 @@ const Wrapper = styled.div`
   }
 `
 
-const TextGroup = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const TextGroup = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 TextGroup.propTypes = {
   align: PropTypes.oneOf(['justify', 'left', 'right', 'center']),

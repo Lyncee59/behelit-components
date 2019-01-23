@@ -31,9 +31,7 @@ const Wrapper = styled.li`
   }
 `
 
-const NavbarNavItem = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const NavbarNavItem = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 NavbarNavItem.propTypes = {
   children: PropTypes.node

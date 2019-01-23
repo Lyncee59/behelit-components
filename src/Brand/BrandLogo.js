@@ -3,15 +3,13 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-const Wrapper = styled.svg.attrs({
-  viewBox: '0 0 103.9 103.9'
-})`
+const Wrapper = styled.svg`
   height: ${(props) => props.size};
   width: ${(props) => props.size};
 `
 
 const BrandLogo = (props) => (
-  <Wrapper {...props} enable-background="new 0 0 707 714" height="714px" viewBox="0 0 707 714" width="707px" x="0px" y="0px"> 
+  <Wrapper {...props} enable-background="new 0 0 707 714" height="714px" viewBox="0 0 707 714" width="707px" x="0px" y="0px">
     <image
       height="714"
       href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAsMAAALKCAYAAADXg1yKAAAABGdBTUEAALGPC/xhBQAAACBjSFJN

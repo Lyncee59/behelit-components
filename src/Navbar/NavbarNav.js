@@ -30,19 +30,17 @@ const Wrapper = styled.ul`
   }
 `
 
-const NavbarNav = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const NavbarNav = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 NavbarNav.propTypes = {
   children: PropTypes.node,
   toggled: PropTypes.bool,
-  width: PropTypes.string,
+  width: PropTypes.string
 }
 
 NavbarNav.defaultProps = {
   toggled: true,
-  width: '100%',
+  width: '100%'
 }
 
 export default NavbarNav

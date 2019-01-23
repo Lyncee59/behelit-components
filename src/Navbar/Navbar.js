@@ -20,11 +20,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Navbar = ({ children, height, ...rest }) => (
-  <Wrapper height={height} {...rest}>
-    {children}
-  </Wrapper>
-)
+const Navbar = ({ children, height, ...rest }) => <Wrapper height={height} {...rest}>{children}</Wrapper>
 
 Navbar.propTypes = {
   children: PropTypes.node,

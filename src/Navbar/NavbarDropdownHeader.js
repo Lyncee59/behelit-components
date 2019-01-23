@@ -17,9 +17,7 @@ const Wrapper = styled.span`
   }
 `
 
-const NavbarDropdownHeader = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const NavbarDropdownHeader = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 NavbarDropdownHeader.propTypes = {
   children: PropTypes.node

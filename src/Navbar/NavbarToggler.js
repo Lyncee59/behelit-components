@@ -5,10 +5,7 @@ import styled from 'styled-components'
 import { FasTimes, FasBars } from '../Icons'
 import { screenSize, theme } from '../Tools/interpolation'
 
-const TogglerExpand = styled(FasTimes).attrs({
-  selectable: true,
-  size: '20px'
-})`
+const TogglerExpand = styled(FasTimes)`
   fill: ${theme('navbarTogglerColor')};
   z-index: ${theme('navbarTogglerZIndex')};
 
@@ -21,14 +18,11 @@ const TogglerExpand = styled(FasTimes).attrs({
   }
 `
 
-const TogglerCollapse = styled(FasBars).attrs({
-  selectable: true,
-  size: '25px'
-})`
-  fill: ${theme('navbarTogglerColor')} !important;
+const TogglerCollapse = styled(FasBars)`
+  fill: ${theme('navbarTogglerColor')};
 
   &:hover {
-    fill: ${theme('navbarTogglerColor')} !important;
+    fill: ${theme('navbarTogglerColor')};
   }
 
   @media (min-width: ${screenSize('sm')}) {
@@ -37,14 +31,16 @@ const TogglerCollapse = styled(FasBars).attrs({
 `
 
 const NavbarToggler = ({ toggled, ...rest }) => toggled
-  ? <TogglerExpand {...rest} />
-  : <TogglerCollapse {...rest} />
+  ? <TogglerExpand selectable size="20px" {...rest} />
+  : <TogglerCollapse selectable size="20px" {...rest} />
 
 NavbarToggler.propTypes = {
+  selectable: PropTypes.bool,
   toggled: PropTypes.bool
 }
 
 NavbarToggler.defaultProps = {
+  selectable: false,
   toggled: false
 }
 

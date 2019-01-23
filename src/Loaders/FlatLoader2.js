@@ -53,12 +53,12 @@ const FlatLoader2 = (props) => (
 
 FlatLoader2.propTypes = {
   height: PropTypes.string.isRequired,
-  width: PropTypes.string.isRequired,
+  width: PropTypes.string.isRequired
 }
 
 FlatLoader2.defaultProps = {
   height: '50px',
-  width: '45px',
+  width: '45px'
 }
 
 export default FlatLoader2

@@ -65,11 +65,7 @@ exports[`TextArea should render correctly 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "name": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -214,11 +210,7 @@ exports[`TextArea should render correctly with disabled 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "name": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -363,11 +355,7 @@ exports[`TextArea should render correctly with height 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "name": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -514,11 +502,7 @@ exports[`TextArea should render correctly with name 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "name": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -667,11 +651,7 @@ exports[`TextArea should render correctly with value 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "name": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -818,11 +798,7 @@ exports[`TextArea should render correctly with width 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "name": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,

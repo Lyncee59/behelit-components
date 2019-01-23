@@ -30,9 +30,7 @@ const Wrapper = styled.a`
   }
 `
 
-const Link = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const Link = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 Link.propTypes = {
   capitalize: PropTypes.bool,

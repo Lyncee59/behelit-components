@@ -18,9 +18,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Footer = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const Footer = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 Footer.propTypes = {
   children: PropTypes.node

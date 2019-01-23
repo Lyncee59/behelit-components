@@ -4,9 +4,7 @@ import styled from 'styled-components'
 
 import { prop, theme } from '../Tools/interpolation'
 
-const Wrapper = styled.textarea.attrs({
-  name: prop('name')
-})`
+const Wrapper = styled.textarea`
   display: block;
   width: ${prop('width')};
   height: ${prop('height')};
@@ -37,9 +35,7 @@ const Wrapper = styled.textarea.attrs({
   }
 `
 
-const TextArea = ({ ...props }) => {
-  return <Wrapper {...props} />
-}
+const TextArea = ({ ...props }) => <Wrapper {...props} />
 
 TextArea.propTypes = {
   disabled: PropTypes.bool,

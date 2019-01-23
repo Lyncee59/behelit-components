@@ -12,9 +12,7 @@ const Wrapper = styled(Link).attrs({
   white-space: nowrap;
 `
 
-const FooterLink = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const FooterLink = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 FooterLink.propTypes = {
   children: PropTypes.node.isRequired

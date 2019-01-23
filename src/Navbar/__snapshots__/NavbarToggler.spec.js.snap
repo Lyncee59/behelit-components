@@ -3,19 +3,19 @@
 exports[`NavbarToggler should render correctly 1`] = `
 .c1 {
   fill: #990000;
-  cursor: pointer;
+  cursor: default;
 }
 
 .c1:hover {
-  fill: #800000;
+  fill: #990000;
 }
 
 .c0 {
-  fill: #FFFFFF !important;
+  fill: #FFFFFF;
 }
 
 .c0:hover {
-  fill: #FFFFFF !important;
+  fill: #FFFFFF;
 }
 
 @media (min-width:48rem) {
@@ -26,21 +26,19 @@ exports[`NavbarToggler should render correctly 1`] = `
 
 <NavbarToggler
   onToggle={[MockFunction]}
+  selectable={false}
   toggled={false}
 >
   <Styled(FasBars)
     onToggle={[MockFunction]}
+    selectable={false}
+    size="20px"
   >
     <StyledComponent
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "selectable": true,
-              "size": "25px",
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-clpBeH",
             "isStatic": false,
@@ -49,12 +47,12 @@ exports[`NavbarToggler should render correctly 1`] = `
               "
   fill: ",
               [Function],
-              " !important;
+              ";
 
   &:hover {
     fill: ",
               [Function],
-              " !important;
+              ";
   }
 
   @media (min-width: ",
@@ -77,19 +75,21 @@ exports[`NavbarToggler should render correctly 1`] = `
       }
       forwardedRef={null}
       onToggle={[MockFunction]}
+      selectable={false}
+      size="20px"
     >
       <FasBars
         className="c0"
         onToggle={[MockFunction]}
-        selectable={true}
-        size="25px"
+        selectable={false}
+        size="20px"
       >
         <Styled(SvgFasBars)
           className="c0"
-          height="25px"
+          height="20px"
           onToggle={[MockFunction]}
-          selectable={true}
-          width="25px"
+          selectable={false}
+          width="20px"
         >
           <StyledComponent
             className="c0"
@@ -133,25 +133,25 @@ exports[`NavbarToggler should render correctly 1`] = `
               }
             }
             forwardedRef={null}
-            height="25px"
+            height="20px"
             onToggle={[MockFunction]}
-            selectable={true}
-            width="25px"
+            selectable={false}
+            width="20px"
           >
             <SvgFasBars
               className="c0 c1"
-              height="25px"
+              height="20px"
               onToggle={[MockFunction]}
-              selectable={true}
-              width="25px"
+              selectable={false}
+              width="20px"
             >
               <svg
                 className="c0 c1"
-                height="25px"
+                height="20px"
                 onToggle={[MockFunction]}
-                selectable={true}
+                selectable={false}
                 viewBox="0 0 448 512"
-                width="25px"
+                width="20px"
               >
                 <path
                   d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
@@ -169,11 +169,11 @@ exports[`NavbarToggler should render correctly 1`] = `
 exports[`NavbarToggler should render correctly with toggled 1`] = `
 .c1 {
   fill: #990000;
-  cursor: pointer;
+  cursor: default;
 }
 
 .c1:hover {
-  fill: #800000;
+  fill: #990000;
 }
 
 .c0 {
@@ -193,21 +193,19 @@ exports[`NavbarToggler should render correctly with toggled 1`] = `
 
 <NavbarToggler
   onToggle={[MockFunction]}
+  selectable={false}
   toggled={true}
 >
   <Styled(FasTimes)
     onToggle={[MockFunction]}
+    selectable={false}
+    size="20px"
   >
     <StyledComponent
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "selectable": true,
-              "size": "20px",
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-jgZNlG",
             "isStatic": false,
@@ -247,18 +245,20 @@ exports[`NavbarToggler should render correctly with toggled 1`] = `
       }
       forwardedRef={null}
       onToggle={[MockFunction]}
+      selectable={false}
+      size="20px"
     >
       <FasTimes
         className="c0"
         onToggle={[MockFunction]}
-        selectable={true}
+        selectable={false}
         size="20px"
       >
         <Styled(SvgFasTimes)
           className="c0"
           height="20px"
           onToggle={[MockFunction]}
-          selectable={true}
+          selectable={false}
           width="20px"
         >
           <StyledComponent
@@ -305,21 +305,21 @@ exports[`NavbarToggler should render correctly with toggled 1`] = `
             forwardedRef={null}
             height="20px"
             onToggle={[MockFunction]}
-            selectable={true}
+            selectable={false}
             width="20px"
           >
             <SvgFasTimes
               className="c0 c1"
               height="20px"
               onToggle={[MockFunction]}
-              selectable={true}
+              selectable={false}
               width="20px"
             >
               <svg
                 className="c0 c1"
                 height="20px"
                 onToggle={[MockFunction]}
-                selectable={true}
+                selectable={false}
                 viewBox="0 0 352 512"
                 width="20px"
               >

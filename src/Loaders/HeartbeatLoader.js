@@ -40,11 +40,11 @@ const HeartbeatLoader = (props) => (
 )
 
 HeartbeatLoader.propTypes = {
-  size: PropTypes.string.isRequired,
+  size: PropTypes.string.isRequired
 }
 
 HeartbeatLoader.defaultProps = {
-  size: '40px',
+  size: '40px'
 }
 
 export default HeartbeatLoader

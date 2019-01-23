@@ -17,9 +17,7 @@ const Wrapper = styled.div`
   transform: translateZ(0);
 `
 
-const ModalBackground = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const ModalBackground = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 ModalBackground.propTypes = {
   children: PropTypes.node

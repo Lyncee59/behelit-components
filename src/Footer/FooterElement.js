@@ -9,9 +9,7 @@ const Wrapper = styled.div`
   overflow-wrap: break-word;
 `
 
-const FooterElement = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const FooterElement = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 FooterElement.propTypes = {
   children: PropTypes.node

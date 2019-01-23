@@ -23,9 +23,7 @@ const Wrapper = styled.a`
   }
 `
 
-const NavbarDropdownItem = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const NavbarDropdownItem = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 NavbarDropdownItem.propTypes = {
   children: PropTypes.node

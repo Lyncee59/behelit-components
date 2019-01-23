@@ -31,9 +31,7 @@ const Wrapper = styled.div`
   }
 `
 
-const NavbarMenu = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const NavbarMenu = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 NavbarMenu.propTypes = {
   children: PropTypes.node,

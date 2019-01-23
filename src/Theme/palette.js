@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
 const palette = {
   // Gray shades
-  gray: '#808080',
-  darkgray: '#A9A9A9',
+  darkgray: '#808080',
+  gray: '#A9A9A9',
   silver: '#C0C0C0',
   lightgray: '#D3D3D3',
   // Blue shades

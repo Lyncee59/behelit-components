@@ -31,9 +31,7 @@ const Wrapper = styled.section`
   background-image: ${(props) => getBackgroundImage(props.nature)};
 `
 
-const Section = ({ children, ...rest }) => {
-  return <Wrapper {...rest}>{children}</Wrapper>
-}
+const Section = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 Section.propTypes = {
   children: PropTypes.node,

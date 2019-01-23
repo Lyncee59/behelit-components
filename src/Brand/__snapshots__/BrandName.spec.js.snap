@@ -17,19 +17,17 @@ exports[`BrandName should render correctly 1`] = `
 
 <BrandName
   size="30px"
+  weight={700}
 >
   <Styled(Text)
     size="30px"
+    weight={700}
   >
     <StyledComponent
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "weight": 700,
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-htpNat",
             "isStatic": false,
@@ -54,6 +52,7 @@ exports[`BrandName should render correctly 1`] = `
       }
       forwardedRef={null}
       size="30px"
+      weight={700}
     >
       <Text
         capitalize={false}
@@ -158,19 +157,17 @@ exports[`BrandName should render correctly with size 1`] = `
 
 <BrandName
   size="100px"
+  weight={700}
 >
   <Styled(Text)
     size="100px"
+    weight={700}
   >
     <StyledComponent
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "weight": 700,
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-htpNat",
             "isStatic": false,
@@ -195,6 +192,7 @@ exports[`BrandName should render correctly with size 1`] = `
       }
       forwardedRef={null}
       size="100px"
+      weight={700}
     >
       <Text
         capitalize={false}

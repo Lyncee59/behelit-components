@@ -61,11 +61,7 @@ exports[`Button should have a bounced state 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "type": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -201,11 +197,7 @@ exports[`Button should have a disabled state 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "type": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -341,11 +333,7 @@ exports[`Button should have a type property 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "type": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -481,11 +469,7 @@ exports[`Button should have a type property 2`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "type": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,
@@ -621,11 +605,7 @@ exports[`Button should render correctly 1`] = `
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "type": [Function],
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bdVaJa",
             "isStatic": false,

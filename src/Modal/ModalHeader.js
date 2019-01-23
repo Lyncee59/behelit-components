@@ -14,9 +14,7 @@ const Wrapper = styled.div`
   border-bottom: 1px solid ${theme('modalBorderColor')};
 `
 
-const ModalHeader = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const ModalHeader = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 ModalHeader.propTypes = {
   children: PropTypes.node

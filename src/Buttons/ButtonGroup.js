@@ -30,9 +30,7 @@ const Wrapper = styled.div`
   }
 `
 
-const ButtonGroup = ({ children, ...rest }) => (
-  <Wrapper {...rest}>{children}</Wrapper>
-)
+const ButtonGroup = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 ButtonGroup.propTypes = {
   children: PropTypes.node
