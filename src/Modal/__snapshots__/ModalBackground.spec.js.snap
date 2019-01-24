@@ -22,7 +22,7 @@ exports[`ModalBackground should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: rgba(0,0,0,0.70);
+  background-color: #636363;
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);

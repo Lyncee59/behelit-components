@@ -6,10 +6,10 @@ import { theme } from '../Tools/interpolation'
 
 const themeColorTemplate = css`
   fill: ${theme('iconColor')};
-  cursor: ${(props) => props.selectable ? 'pointer' : 'default'};
+  cursor: ${(props) => props.selectable === 1 ? 'pointer' : 'default'};
 
   &:hover {
-    fill: ${(props) => props.selectable ? theme('iconHoverColor') : theme('iconColor')};
+    fill: ${(props) => props.selectable === 1 ? theme('iconHoverColor') : theme('iconColor')};
   }
 `
 
@@ -24,7 +24,7 @@ export default (Svg, name, keepSvgColor = false) => {
   `
 
   const WithStyle = ({ selectable, size, ...rest }) => (
-    <Icon {...rest} height={size} selectable={selectable} width={size} />
+    <Icon {...rest} height={size} selectable={selectable ? 1 : 0} width={size} />
   )
 
   WithStyle.propTypes = {

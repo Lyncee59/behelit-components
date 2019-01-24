@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render correctly 1`] = `
+.c0 {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+<List>
+  <styled.ul>
+    <StyledComponent
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  list-style-type: none;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+",
+            ],
+          },
+          "displayName": "styled.ul",
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "ul",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <ul
+        className="c0"
+      >
+        List
+      </ul>
+    </StyledComponent>
+  </styled.ul>
+</List>
+`;

@@ -19,7 +19,7 @@ exports[`ModalToggler should render correctly 1`] = `
   >
     <Styled(SvgFasTimes)
       height="28px"
-      selectable={true}
+      selectable={1}
       width="28px"
     >
       <StyledComponent
@@ -64,19 +64,19 @@ exports[`ModalToggler should render correctly 1`] = `
         }
         forwardedRef={null}
         height="28px"
-        selectable={true}
+        selectable={1}
         width="28px"
       >
         <SvgFasTimes
           className="c0"
           height="28px"
-          selectable={true}
+          selectable={1}
           width="28px"
         >
           <svg
             className="c0"
             height="28px"
-            selectable={true}
+            selectable={1}
             viewBox="0 0 352 512"
             width="28px"
           >

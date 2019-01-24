@@ -10,12 +10,12 @@ exports[`Link should render correctly 1`] = `
   color: #990000;
   opacity: 1;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c0:hover {
-  color: #800000;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  color: #CA7D7D;
 }
 
 <Link
@@ -68,12 +68,12 @@ exports[`Link should render correctly 1`] = `
               [Function],
               ";
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ",
               [Function],
               ";
-    text-decoration: underline;
   }
 ",
             ],
@@ -116,12 +116,12 @@ exports[`Link should render correctly with capitalize 1`] = `
   color: #990000;
   opacity: 1;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c0:hover {
-  color: #800000;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  color: #CA7D7D;
 }
 
 <Link
@@ -174,12 +174,12 @@ exports[`Link should render correctly with capitalize 1`] = `
               [Function],
               ";
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ",
               [Function],
               ";
-    text-decoration: underline;
   }
 ",
             ],
@@ -222,12 +222,12 @@ exports[`Link should render correctly with italic 1`] = `
   color: #990000;
   opacity: 1;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c0:hover {
-  color: #800000;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  color: #CA7D7D;
 }
 
 <Link
@@ -280,12 +280,12 @@ exports[`Link should render correctly with italic 1`] = `
               [Function],
               ";
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ",
               [Function],
               ";
-    text-decoration: underline;
   }
 ",
             ],
@@ -328,12 +328,12 @@ exports[`Link should render correctly with opacity 1`] = `
   color: #990000;
   opacity: 0.5;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c0:hover {
-  color: #800000;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  color: #CA7D7D;
 }
 
 <Link
@@ -386,12 +386,12 @@ exports[`Link should render correctly with opacity 1`] = `
               [Function],
               ";
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ",
               [Function],
               ";
-    text-decoration: underline;
   }
 ",
             ],
@@ -434,12 +434,12 @@ exports[`Link should render correctly with size 1`] = `
   color: #990000;
   opacity: 1;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c0:hover {
-  color: #800000;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  color: #CA7D7D;
 }
 
 <Link
@@ -492,12 +492,12 @@ exports[`Link should render correctly with size 1`] = `
               [Function],
               ";
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ",
               [Function],
               ";
-    text-decoration: underline;
   }
 ",
             ],
@@ -540,12 +540,12 @@ exports[`Link should render correctly with uppercase 1`] = `
   color: #990000;
   opacity: 1;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c0:hover {
-  color: #800000;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  color: #CA7D7D;
 }
 
 <Link
@@ -598,12 +598,12 @@ exports[`Link should render correctly with uppercase 1`] = `
               [Function],
               ";
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ",
               [Function],
               ";
-    text-decoration: underline;
   }
 ",
             ],
@@ -646,12 +646,12 @@ exports[`Link should render correctly with weight 1`] = `
   color: #990000;
   opacity: 1;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c0:hover {
-  color: #800000;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  color: #CA7D7D;
 }
 
 <Link
@@ -704,12 +704,12 @@ exports[`Link should render correctly with weight 1`] = `
               [Function],
               ";
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ",
               [Function],
               ";
-    text-decoration: underline;
   }
 ",
             ],

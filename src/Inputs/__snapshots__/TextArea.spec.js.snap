@@ -9,9 +9,9 @@ exports[`TextArea should render correctly 1`] = `
   box-sizing: border-box;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   border-width: 1px;
-  border-color: #D3D3D3;
+  border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
   background-color: #FFFFFF;
@@ -25,28 +25,28 @@ exports[`TextArea should render correctly 1`] = `
 }
 
 .c0:disabled {
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
@@ -154,9 +154,9 @@ exports[`TextArea should render correctly with disabled 1`] = `
   box-sizing: border-box;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   border-width: 1px;
-  border-color: #D3D3D3;
+  border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
   background-color: #FFFFFF;
@@ -170,28 +170,28 @@ exports[`TextArea should render correctly with disabled 1`] = `
 }
 
 .c0:disabled {
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
@@ -299,9 +299,9 @@ exports[`TextArea should render correctly with height 1`] = `
   box-sizing: border-box;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   border-width: 1px;
-  border-color: #D3D3D3;
+  border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
   background-color: #FFFFFF;
@@ -315,28 +315,28 @@ exports[`TextArea should render correctly with height 1`] = `
 }
 
 .c0:disabled {
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
@@ -444,9 +444,9 @@ exports[`TextArea should render correctly with name 1`] = `
   box-sizing: border-box;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   border-width: 1px;
-  border-color: #D3D3D3;
+  border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
   background-color: #FFFFFF;
@@ -460,28 +460,28 @@ exports[`TextArea should render correctly with name 1`] = `
 }
 
 .c0:disabled {
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
@@ -593,9 +593,9 @@ exports[`TextArea should render correctly with value 1`] = `
   box-sizing: border-box;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   border-width: 1px;
-  border-color: #D3D3D3;
+  border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
   background-color: #FFFFFF;
@@ -609,28 +609,28 @@ exports[`TextArea should render correctly with value 1`] = `
 }
 
 .c0:disabled {
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
@@ -742,9 +742,9 @@ exports[`TextArea should render correctly with width 1`] = `
   box-sizing: border-box;
   font-family: 'Roboto',sans-serif;
   font-size: 1rem;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   border-width: 1px;
-  border-color: #D3D3D3;
+  border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
   background-color: #FFFFFF;
@@ -758,28 +758,28 @@ exports[`TextArea should render correctly with width 1`] = `
 }
 
 .c0:disabled {
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   background: #FFFFFF;
   cursor: not-allowed;
 }
 
 .c0::-webkit-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::-moz-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0:-ms-input-placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 
 .c0::placeholder {
-  color: rgba(0,0,0,0.40);
+  color: #9B9B9B;
   font-size: 0.875rem;
 }
 

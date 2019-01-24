@@ -10,12 +10,12 @@ exports[`FooterElement should render correctly 1`] = `
   color: #990000;
   opacity: 1;
   cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
 }
 
 .c1:hover {
-  color: #800000;
-  -webkit-text-decoration: underline;
-  text-decoration: underline;
+  color: #CA7D7D;
 }
 
 .c0 {
@@ -23,18 +23,19 @@ exports[`FooterElement should render correctly 1`] = `
   white-space: nowrap;
 }
 
-<FooterLink>
-  <Styled(Link)>
+<FooterLink
+  size="1rem"
+  weight={500}
+>
+  <Styled(Link)
+    size="1rem"
+    weight={500}
+  >
     <StyledComponent
       forwardedClass={
         Object {
           "$$typeof": Symbol(react.forward_ref),
-          "attrs": Array [
-            Object {
-              "size": "1rem",
-              "weight": 500,
-            },
-          ],
+          "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bwzfXH",
             "isStatic": true,
@@ -57,6 +58,8 @@ exports[`FooterElement should render correctly 1`] = `
         }
       }
       forwardedRef={null}
+      size="1rem"
+      weight={500}
     >
       <Link
         capitalize={false}
@@ -111,12 +114,12 @@ exports[`FooterElement should render correctly 1`] = `
                     [Function],
                     ";
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ",
                     [Function],
                     ";
-    text-decoration: underline;
   }
 ",
                   ],

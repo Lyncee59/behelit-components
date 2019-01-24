@@ -7,7 +7,7 @@ exports[`Text should render correctly 1`] = `
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 
@@ -98,7 +98,7 @@ exports[`Text should render correctly with capitalize 1`] = `
   font-size: 1rem;
   text-transform: capitalize;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 
@@ -189,7 +189,7 @@ exports[`Text should render correctly with italic 1`] = `
   font-size: 1rem;
   text-transform: none;
   font-style: italic;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 
@@ -280,7 +280,7 @@ exports[`Text should render correctly with opacity 1`] = `
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 0.5;
 }
 
@@ -371,7 +371,7 @@ exports[`Text should render correctly with size 1`] = `
   font-size: 32px;
   text-transform: none;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 
@@ -462,7 +462,7 @@ exports[`Text should render correctly with uppercase 1`] = `
   font-size: 1rem;
   text-transform: uppercase;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 
@@ -553,7 +553,7 @@ exports[`Text should render correctly with weight 1`] = `
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 

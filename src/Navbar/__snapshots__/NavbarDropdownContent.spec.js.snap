@@ -43,7 +43,7 @@ exports[`NavbarDropdownContent should render correctly 1`] = `
     border-radius: 0.25rem;
     box-sizing: border-box;
     background-color: #FFFFFF;
-    box-shadow: 0 10px 60px -10px rgba(0,0,0,0.30), 0 8px 16px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 60px -10px #9B9B9B, 0 8px 16px #9B9B9B;
   }
 
   .c1::after,

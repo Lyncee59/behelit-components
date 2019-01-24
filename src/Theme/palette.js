@@ -1,36 +1,31 @@
 /* eslint-disable sort-keys */
 const palette = {
   // Gray shades
-  darkgray: '#808080',
-  gray: '#A9A9A9',
-  silver: '#C0C0C0',
-  lightgray: '#D3D3D3',
-  // Blue shades
-  biscay: '#153A62',
-  azure: '#3558A8',
-  cerulean: '#10ADE4',
+  gray1: '#F3F3F3',
+  gray2: '#C2C2C2',
+  gray3: '#9B9B9B',
+  gray4: '#7C7C7C',
+  gray5: '#636363',
+  gray6: '#4F4F4F',
+  gray7: '#3F3F3F',
+  gray8: '#323232',
+  gray9: '#282828',
+  gray10: '#202020',
   // Red shades
-  crimson: '#990000',
-  boston: '#CC0000',
-  red: '#F36331',
-  // Yellow shades
-  gold: '#FFCA00',
-  yellow: '#F7C653',
-  // Green shades
-  green: '#47B881',
+  red1: '#F1DDDD',
+  red2: '#EDD5D5',
+  red3: '#E9CACA',
+  red4: '#E4BDBD',
+  red5: '#DDACAC',
+  red6: '#D59797',
+  red7: '#CA7D7D',
+  red8: '#BD5C5C',
+  red9: '#AD3333',
+  red10: '#990000',
   // Generic
   transparent: 'rgba(0, 0, 0, 0)',
   white: '#FFFFFF',
-  black: '#000000',
-  black90: 'rgba(0,0,0,0.90)',
-  black80: 'rgba(0,0,0,0.80)',
-  black70: 'rgba(0,0,0,0.70)',
-  black60: 'rgba(0,0,0,0.60)',
-  black50: 'rgba(0,0,0,0.50)',
-  black40: 'rgba(0,0,0,0.40)',
-  black30: 'rgba(0,0,0,0.30)',
-  black20: 'rgba(0,0,0,0.20)',
-  black10: 'rgba(0,0,0,0.10)'
+  black: '#000000'
 }
 
 export default palette

@@ -7,7 +7,7 @@ exports[`TextGroup mount render correctly 1`] = `
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 
@@ -18,15 +18,18 @@ exports[`TextGroup mount render correctly 1`] = `
 .c0 > * {
   display: inline;
   margin-right: 0.4rem;
+  margin-bottom: 0;
 }
 
 <TextGroup
   align="justify"
   inline={true}
+  space={true}
 >
   <styled.div
     align="justify"
     inline={true}
+    space={true}
   >
     <StyledComponent
       align="justify"
@@ -51,6 +54,9 @@ exports[`TextGroup mount render correctly 1`] = `
     margin-right: ",
               [Function],
               ";
+    margin-bottom: ",
+              [Function],
+              ";
   }
 ",
             ],
@@ -66,6 +72,7 @@ exports[`TextGroup mount render correctly 1`] = `
       }
       forwardedRef={null}
       inline={true}
+      space={true}
     >
       <div
         className="c0"
@@ -631,7 +638,7 @@ exports[`TextGroup mount render correctly with align 1`] = `
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 
@@ -642,15 +649,18 @@ exports[`TextGroup mount render correctly with align 1`] = `
 .c0 > * {
   display: inline;
   margin-right: 0.4rem;
+  margin-bottom: 0;
 }
 
 <TextGroup
   align="right"
   inline={true}
+  space={true}
 >
   <styled.div
     align="right"
     inline={true}
+    space={true}
   >
     <StyledComponent
       align="right"
@@ -675,6 +685,9 @@ exports[`TextGroup mount render correctly with align 1`] = `
     margin-right: ",
               [Function],
               ";
+    margin-bottom: ",
+              [Function],
+              ";
   }
 ",
             ],
@@ -690,6 +703,7 @@ exports[`TextGroup mount render correctly with align 1`] = `
       }
       forwardedRef={null}
       inline={true}
+      space={true}
     >
       <div
         className="c0"
@@ -1255,7 +1269,7 @@ exports[`TextGroup mount render correctly with inline 1`] = `
   font-size: 1rem;
   text-transform: none;
   font-style: normal;
-  color: rgba(0,0,0,0.80);
+  color: #323232;
   opacity: 1;
 }
 
@@ -1266,15 +1280,18 @@ exports[`TextGroup mount render correctly with inline 1`] = `
 .c0 > * {
   display: block;
   margin-right: 0;
+  margin-bottom: 0.4rem;
 }
 
 <TextGroup
   align="justify"
   inline={false}
+  space={true}
 >
   <styled.div
     align="justify"
     inline={false}
+    space={true}
   >
     <StyledComponent
       align="justify"
@@ -1299,6 +1316,9 @@ exports[`TextGroup mount render correctly with inline 1`] = `
     margin-right: ",
               [Function],
               ";
+    margin-bottom: ",
+              [Function],
+              ";
   }
 ",
             ],
@@ -1314,6 +1334,638 @@ exports[`TextGroup mount render correctly with inline 1`] = `
       }
       forwardedRef={null}
       inline={false}
+      space={true}
+    >
+      <div
+        className="c0"
+      >
+        <Texts>
+          <Text
+            capitalize={false}
+            italic={false}
+            opacity={1}
+            size="1rem"
+            uppercase={false}
+            weight={400}
+          >
+            <styled.span
+              capitalize={false}
+              italic={false}
+              opacity={1}
+              size="1rem"
+              uppercase={false}
+              weight={400}
+            >
+              <StyledComponent
+                capitalize={false}
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c1",
+                      "rules": Array [
+                        "
+  font-family: ",
+                        [Function],
+                        ";
+  font-weight: ",
+                        [Function],
+                        ";
+  font-size: ",
+                        [Function],
+                        ";
+  text-transform: ",
+                        [Function],
+                        ";
+  font-style: ",
+                        [Function],
+                        ";
+  color: ",
+                        [Function],
+                        ";
+  opacity: ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                italic={false}
+                opacity={1}
+                size="1rem"
+                uppercase={false}
+                weight={400}
+              >
+                <span
+                  className="c1"
+                  opacity={1}
+                  size="1rem"
+                >
+                  This is my first text. This is my first text. This is my first text. This is my first text.
+                </span>
+              </StyledComponent>
+            </styled.span>
+          </Text>
+          <Text
+            capitalize={false}
+            italic={false}
+            opacity={1}
+            size="1rem"
+            uppercase={false}
+            weight={400}
+          >
+            <styled.span
+              capitalize={false}
+              italic={false}
+              opacity={1}
+              size="1rem"
+              uppercase={false}
+              weight={400}
+            >
+              <StyledComponent
+                capitalize={false}
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c1",
+                      "rules": Array [
+                        "
+  font-family: ",
+                        [Function],
+                        ";
+  font-weight: ",
+                        [Function],
+                        ";
+  font-size: ",
+                        [Function],
+                        ";
+  text-transform: ",
+                        [Function],
+                        ";
+  font-style: ",
+                        [Function],
+                        ";
+  color: ",
+                        [Function],
+                        ";
+  opacity: ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                italic={false}
+                opacity={1}
+                size="1rem"
+                uppercase={false}
+                weight={400}
+              >
+                <span
+                  className="c1"
+                  opacity={1}
+                  size="1rem"
+                >
+                  This is my second text. This is my second text. This is my second text. This is my second text.
+                </span>
+              </StyledComponent>
+            </styled.span>
+          </Text>
+          <Text
+            capitalize={false}
+            italic={false}
+            opacity={1}
+            size="1rem"
+            uppercase={false}
+            weight={400}
+          >
+            <styled.span
+              capitalize={false}
+              italic={false}
+              opacity={1}
+              size="1rem"
+              uppercase={false}
+              weight={400}
+            >
+              <StyledComponent
+                capitalize={false}
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c1",
+                      "rules": Array [
+                        "
+  font-family: ",
+                        [Function],
+                        ";
+  font-weight: ",
+                        [Function],
+                        ";
+  font-size: ",
+                        [Function],
+                        ";
+  text-transform: ",
+                        [Function],
+                        ";
+  font-style: ",
+                        [Function],
+                        ";
+  color: ",
+                        [Function],
+                        ";
+  opacity: ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                italic={false}
+                opacity={1}
+                size="1rem"
+                uppercase={false}
+                weight={400}
+              >
+                <span
+                  className="c1"
+                  opacity={1}
+                  size="1rem"
+                >
+                  This is my third text. This is my third text. This is my third text. This is my third text.
+                </span>
+              </StyledComponent>
+            </styled.span>
+          </Text>
+          <Text
+            capitalize={false}
+            italic={false}
+            opacity={1}
+            size="1rem"
+            uppercase={false}
+            weight={400}
+          >
+            <styled.span
+              capitalize={false}
+              italic={false}
+              opacity={1}
+              size="1rem"
+              uppercase={false}
+              weight={400}
+            >
+              <StyledComponent
+                capitalize={false}
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c1",
+                      "rules": Array [
+                        "
+  font-family: ",
+                        [Function],
+                        ";
+  font-weight: ",
+                        [Function],
+                        ";
+  font-size: ",
+                        [Function],
+                        ";
+  text-transform: ",
+                        [Function],
+                        ";
+  font-style: ",
+                        [Function],
+                        ";
+  color: ",
+                        [Function],
+                        ";
+  opacity: ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                italic={false}
+                opacity={1}
+                size="1rem"
+                uppercase={false}
+                weight={400}
+              >
+                <span
+                  className="c1"
+                  opacity={1}
+                  size="1rem"
+                >
+                  This is my fourth text. This is my fourth text. This is my fourth text. This is my fourth text.
+                </span>
+              </StyledComponent>
+            </styled.span>
+          </Text>
+          <Text
+            capitalize={false}
+            italic={false}
+            opacity={1}
+            size="1rem"
+            uppercase={false}
+            weight={400}
+          >
+            <styled.span
+              capitalize={false}
+              italic={false}
+              opacity={1}
+              size="1rem"
+              uppercase={false}
+              weight={400}
+            >
+              <StyledComponent
+                capitalize={false}
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c1",
+                      "rules": Array [
+                        "
+  font-family: ",
+                        [Function],
+                        ";
+  font-weight: ",
+                        [Function],
+                        ";
+  font-size: ",
+                        [Function],
+                        ";
+  text-transform: ",
+                        [Function],
+                        ";
+  font-style: ",
+                        [Function],
+                        ";
+  color: ",
+                        [Function],
+                        ";
+  opacity: ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                italic={false}
+                opacity={1}
+                size="1rem"
+                uppercase={false}
+                weight={400}
+              >
+                <span
+                  className="c1"
+                  opacity={1}
+                  size="1rem"
+                >
+                  This is my fifth text. This is my fifth text. This is my fifth text. This is my fifth text.
+                </span>
+              </StyledComponent>
+            </styled.span>
+          </Text>
+          <Text
+            capitalize={false}
+            italic={false}
+            opacity={1}
+            size="1rem"
+            uppercase={false}
+            weight={400}
+          >
+            <styled.span
+              capitalize={false}
+              italic={false}
+              opacity={1}
+              size="1rem"
+              uppercase={false}
+              weight={400}
+            >
+              <StyledComponent
+                capitalize={false}
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c1",
+                      "rules": Array [
+                        "
+  font-family: ",
+                        [Function],
+                        ";
+  font-weight: ",
+                        [Function],
+                        ";
+  font-size: ",
+                        [Function],
+                        ";
+  text-transform: ",
+                        [Function],
+                        ";
+  font-style: ",
+                        [Function],
+                        ";
+  color: ",
+                        [Function],
+                        ";
+  opacity: ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                italic={false}
+                opacity={1}
+                size="1rem"
+                uppercase={false}
+                weight={400}
+              >
+                <span
+                  className="c1"
+                  opacity={1}
+                  size="1rem"
+                >
+                  This is my sixth text. This is my sixth text. This is my sixth text. This is my sixth text.
+                </span>
+              </StyledComponent>
+            </styled.span>
+          </Text>
+          <Text
+            capitalize={false}
+            italic={false}
+            opacity={1}
+            size="1rem"
+            uppercase={false}
+            weight={400}
+          >
+            <styled.span
+              capitalize={false}
+              italic={false}
+              opacity={1}
+              size="1rem"
+              uppercase={false}
+              weight={400}
+            >
+              <StyledComponent
+                capitalize={false}
+                forwardedClass={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": false,
+                      "lastClassName": "c1",
+                      "rules": Array [
+                        "
+  font-family: ",
+                        [Function],
+                        ";
+  font-weight: ",
+                        [Function],
+                        ";
+  font-size: ",
+                        [Function],
+                        ";
+  text-transform: ",
+                        [Function],
+                        ";
+  font-style: ",
+                        [Function],
+                        ";
+  color: ",
+                        [Function],
+                        ";
+  opacity: ",
+                        [Function],
+                        ";
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+                italic={false}
+                opacity={1}
+                size="1rem"
+                uppercase={false}
+                weight={400}
+              >
+                <span
+                  className="c1"
+                  opacity={1}
+                  size="1rem"
+                >
+                  This is my seventh text. This is my seventh text. This is my seventh text. This is my seventh text.
+                </span>
+              </StyledComponent>
+            </styled.span>
+          </Text>
+        </Texts>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</TextGroup>
+`;
+
+exports[`TextGroup mount render correctly with inline 2`] = `
+.c1 {
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-transform: none;
+  font-style: normal;
+  color: #323232;
+  opacity: 1;
+}
+
+.c0 {
+  text-align: justify;
+}
+
+.c0 > * {
+  display: inline;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+<TextGroup
+  align="justify"
+  inline={true}
+  space={false}
+>
+  <styled.div
+    align="justify"
+    inline={true}
+    space={false}
+  >
+    <StyledComponent
+      align="justify"
+      forwardedClass={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  text-align: ",
+              [Function],
+              ";
+
+  & > * {
+    display: ",
+              [Function],
+              ";
+    margin-right: ",
+              [Function],
+              ";
+    margin-bottom: ",
+              [Function],
+              ";
+  }
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      inline={true}
+      space={false}
     >
       <div
         className="c0"

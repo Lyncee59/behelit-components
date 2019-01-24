@@ -20,12 +20,12 @@ storiesOf('Containers/Section', module)
     </Section>
   ))
   .add('with nature (blocks)', () => (
-    <Section color="orient" nature="blocks">
+    <Section nature="blocks">
       <Sample />
     </Section>
   ))
   .add('with nature (diamonds)', () => (
-    <Section color="orient" nature="diamonds">
+    <Section nature="diamonds">
       <Sample />
     </Section>
   ))

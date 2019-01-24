@@ -23,10 +23,10 @@ const Wrapper = styled.a`
   color: ${theme('linkColor')};
   opacity: ${prop('opacity')};
   cursor: pointer;
+  text-decoration: none;
 
   &:hover {
     color: ${theme('linkHoverColor')};
-    text-decoration: underline;
   }
 `
 

@@ -88,7 +88,7 @@ exports[`NavbarToggler should render correctly 1`] = `
           className="c0"
           height="20px"
           onToggle={[MockFunction]}
-          selectable={false}
+          selectable={0}
           width="20px"
         >
           <StyledComponent
@@ -135,21 +135,21 @@ exports[`NavbarToggler should render correctly 1`] = `
             forwardedRef={null}
             height="20px"
             onToggle={[MockFunction]}
-            selectable={false}
+            selectable={0}
             width="20px"
           >
             <SvgFasBars
               className="c0 c1"
               height="20px"
               onToggle={[MockFunction]}
-              selectable={false}
+              selectable={0}
               width="20px"
             >
               <svg
                 className="c0 c1"
                 height="20px"
                 onToggle={[MockFunction]}
-                selectable={false}
+                selectable={0}
                 viewBox="0 0 448 512"
                 width="20px"
               >
@@ -258,7 +258,7 @@ exports[`NavbarToggler should render correctly with toggled 1`] = `
           className="c0"
           height="20px"
           onToggle={[MockFunction]}
-          selectable={false}
+          selectable={0}
           width="20px"
         >
           <StyledComponent
@@ -305,21 +305,21 @@ exports[`NavbarToggler should render correctly with toggled 1`] = `
             forwardedRef={null}
             height="20px"
             onToggle={[MockFunction]}
-            selectable={false}
+            selectable={0}
             width="20px"
           >
             <SvgFasTimes
               className="c0 c1"
               height="20px"
               onToggle={[MockFunction]}
-              selectable={false}
+              selectable={0}
               width="20px"
             >
               <svg
                 className="c0 c1"
                 height="20px"
                 onToggle={[MockFunction]}
-                selectable={false}
+                selectable={0}
                 viewBox="0 0 352 512"
                 width="20px"
               >
