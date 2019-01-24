@@ -42,6 +42,7 @@ const theme = {
   panelBackgroundColor: palette['white'],
   panelShadowColor: palette['gray2'],
   sectionBackgroundColor: palette['gray2'],
+  separatorColor: palette['red10'],
   textColor: palette['gray8']
 }
 

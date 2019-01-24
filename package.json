@@ -1,6 +1,6 @@
 {
   "name": "@behelit/components",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Behelit components library",
   "main": "lib/index.js",
   "module": "esm/index.js",
