@@ -6,7 +6,7 @@ import { theme } from '../Tools/interpolation'
 const Wrapper = styled.div`
   width: 100%;
   height: 2px;
-  background-color: ${theme('separatorColor')};
+  background: ${theme('separatorColor')};
 `
 
 const Separator = (props) => <Wrapper {...props} />

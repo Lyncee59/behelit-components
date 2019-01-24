@@ -15,7 +15,7 @@ const Wrapper = styled.button`
   padding: 0 1rem;
   box-sizing: border-box;
   color: ${theme('buttonColor')};
-  background-color: ${theme('buttonBackgroundColor')};
+  background: ${theme('buttonBackgroundColor')};
   border: none;
   border-radius: 0.25rem;
   cursor: ${(props) => props.disabled ? 'not-allowed' : 'pointer'};
@@ -27,7 +27,7 @@ const Wrapper = styled.button`
   font-weight: 600;
 
   &:hover {
-    background-color: ${(props) => props.disabled ? theme('buttonBackgroundColor') : theme('buttonHoverColor')};
+    background: ${(props) => props.disabled ? theme('buttonBackgroundColor') : theme('buttonHoverColor')};
     transform: ${(props) => props.bounced ? 'scale(0.95)' : 'none'};
   }
 `

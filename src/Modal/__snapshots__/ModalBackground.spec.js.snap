@@ -22,10 +22,11 @@ exports[`ModalBackground should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #636363;
+  background: rgba(50,50,50,0.7);
   -webkit-transform: translateZ(0);
   -ms-transform: translateZ(0);
   transform: translateZ(0);
+  z-index: 101;
 }
 
 <ModalBackground>
@@ -50,10 +51,13 @@ exports[`ModalBackground should render correctly 1`] = `
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ",
+  background: ",
               [Function],
               ";
   transform: translateZ(0);
+  z-index: ",
+              [Function],
+              ";
 ",
             ],
           },

@@ -11,7 +11,7 @@ const Wrapper = styled.div`
     position: absolute;
     width: auto;
     margin: 0.25rem 0;
-    background-color: transparent;
+    background: transparent;
   }
 `
 
@@ -34,7 +34,7 @@ const Container = styled.div`
     padding: 1.5rem;
     border-radius: 0.25rem;
     box-sizing: border-box;
-    background-color: ${theme('navbarDropdownContentBackgroundColor')};
+    background: ${theme('navbarDropdownContentBackgroundColor')};
     box-shadow: 0 10px 60px -10px ${theme('navbarDropdownContentShadowColor')},
       0 8px 16px ${theme('navbarDropdownContentShadowColor2')};
 

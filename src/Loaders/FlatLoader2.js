@@ -22,7 +22,7 @@ const Rectangle = styled.div`
   display: inline-block;
   width: 15%;
   height: 100%;
-  background-color: ${theme('loaderColor')};
+  background: ${theme('loaderColor')};
   animation: ${stretchAnimation} 1.2s infinite ease-in-out;
 `
 const Rectangle1 = styled(Rectangle)`

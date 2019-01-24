@@ -23,7 +23,7 @@ exports[`Button should render correctly 1`] = `
   padding: 0 1rem;
   box-sizing: border-box;
   color: #FFFFFF;
-  background-color: #990000;
+  background: #990000;
   border: none;
   border-radius: 0.25rem;
   cursor: pointer;
@@ -37,7 +37,7 @@ exports[`Button should render correctly 1`] = `
 }
 
 .c1:hover {
-  background-color: #800000;
+  background: #800000;
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
@@ -177,7 +177,7 @@ exports[`Button should render correctly 1`] = `
   color: ",
                         [Function],
                         ";
-  background-color: ",
+  background: ",
                         [Function],
                         ";
   border: none;
@@ -197,7 +197,7 @@ exports[`Button should render correctly 1`] = `
   font-weight: 600;
 
   &:hover {
-    background-color: ",
+    background: ",
                         [Function],
                         ";
     transform: ",
@@ -272,7 +272,7 @@ exports[`Button should render correctly 1`] = `
   color: ",
                         [Function],
                         ";
-  background-color: ",
+  background: ",
                         [Function],
                         ";
   border: none;
@@ -292,7 +292,7 @@ exports[`Button should render correctly 1`] = `
   font-weight: 600;
 
   &:hover {
-    background-color: ",
+    background: ",
                         [Function],
                         ";
     transform: ",
@@ -367,7 +367,7 @@ exports[`Button should render correctly 1`] = `
   color: ",
                         [Function],
                         ";
-  background-color: ",
+  background: ",
                         [Function],
                         ";
   border: none;
@@ -387,7 +387,7 @@ exports[`Button should render correctly 1`] = `
   font-weight: 600;
 
   &:hover {
-    background-color: ",
+    background: ",
                         [Function],
                         ";
     transform: ",

@@ -4,7 +4,7 @@ exports[`Separator should render correctly 1`] = `
 .c0 {
   width: 100%;
   height: 2px;
-  background-color: #990000;
+  background: #990000;
 }
 
 <Separator>
@@ -22,7 +22,7 @@ exports[`Separator should render correctly 1`] = `
               "
   width: 100%;
   height: 2px;
-  background-color: ",
+  background: ",
               [Function],
               ";
 ",

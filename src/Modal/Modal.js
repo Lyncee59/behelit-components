@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   align-items: flex-start;
   width: 100%;
   height: 100%;
-  background-color: ${theme('modalForegroundColor')};
+  background: ${theme('modalForegroundColor')};
 
   @media (min-width: ${screenSize('sm')}) {
     width: ${prop('width')};

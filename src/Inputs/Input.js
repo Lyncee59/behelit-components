@@ -17,7 +17,7 @@ const Wrapper = styled.input`
   border-color: ${theme('inputBorderColor')};
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: ${theme('inputBackgroundColor')};
+  background: ${theme('inputBackgroundColor')};
   background-image: none;
   outline-width: 0;
   user-select: text;

@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   width: ${prop('width')};
   min-width: ${prop('width')};
   box-shadow: 0 0 1.5rem 0.4rem ${theme('panelShadowColor')};
-  background-color: ${theme('panelBackgroundColor')};
+  background: ${theme('panelBackgroundColor')};
 `
 
 const Panel = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>

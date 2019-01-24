@@ -17,7 +17,7 @@ import NavbarNavItem from './NavbarNavItem'
 import NavbarToggler from './NavbarToggler'
 
 const OrientSection = styled(Section)`
-  background-color: ${(props) => props.theme.palette['black40']};
+  background: ${(props) => props.theme.palette['black40']};
 `
 const Wrapper = (props) => <OrientSection {...props} />
 

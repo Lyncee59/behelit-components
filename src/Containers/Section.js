@@ -27,7 +27,7 @@ const Wrapper = styled.section`
   align-items: center;
   height: ${prop('height')};
   width: 100%;
-  background-color: ${theme('sectionBackgroundColor')};
+  background: ${theme('sectionBackgroundColor')};
   background-image: ${(props) => getBackgroundImage(props.nature)};
 `
 

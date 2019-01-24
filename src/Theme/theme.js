@@ -1,5 +1,5 @@
 /* eslint-disable sort-keys */
-import { darken } from 'polished'
+import { darken, transparentize } from 'polished'
 import palette from './palette'
 
 const theme = {
@@ -24,9 +24,10 @@ const theme = {
   linkHoverColor: palette['red7'],
   listItemColor: palette['red10'],
   loaderColor: palette['red10'],
-  modalBackgroundColor: palette['gray5'],
+  modalBackgroundColor: transparentize(0.3, palette['gray8']),
   modalBorderColor: palette['gray3'],
   modalForegroundColor: palette['white'],
+  modalZIndex: 101,
   navbarBrandZIndex: 100,
   navbarDropdownContentBackgroundColor: palette['white'],
   navbarDropdownContentShadowColor: palette['gray3'],

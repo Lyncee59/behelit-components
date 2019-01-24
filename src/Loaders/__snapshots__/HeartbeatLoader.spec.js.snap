@@ -15,7 +15,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: #990000;
+  background: #990000;
   -webkit-animation: eeCuoj 2s infinite ease-in-out;
   animation: eeCuoj 2s infinite ease-in-out;
 }
@@ -28,7 +28,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: #990000;
+  background: #990000;
   -webkit-animation: eeCuoj 2s infinite ease-in-out;
   animation: eeCuoj 2s infinite ease-in-out;
   -webkit-animation-delay: -1s;
@@ -97,7 +97,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: ",
+  background: ",
                     [Function],
                     ";
   animation: ",
@@ -150,7 +150,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: ",
+  background: ",
                     [Function],
                     ";
   animation: ",
@@ -208,7 +208,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: #990000;
+  background: #990000;
   -webkit-animation: eeCuoj 2s infinite ease-in-out;
   animation: eeCuoj 2s infinite ease-in-out;
 }
@@ -221,7 +221,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: #990000;
+  background: #990000;
   -webkit-animation: eeCuoj 2s infinite ease-in-out;
   animation: eeCuoj 2s infinite ease-in-out;
   -webkit-animation-delay: -1s;
@@ -290,7 +290,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: ",
+  background: ",
                     [Function],
                     ";
   animation: ",
@@ -343,7 +343,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: ",
+  background: ",
                     [Function],
                     ";
   animation: ",

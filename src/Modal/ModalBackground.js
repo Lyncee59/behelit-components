@@ -13,8 +13,9 @@ const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: ${theme('modalBackgroundColor')};
+  background: ${theme('modalBackgroundColor')};
   transform: translateZ(0);
+  z-index: ${theme('modalZIndex')};
 `
 
 const ModalBackground = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>

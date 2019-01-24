@@ -20,7 +20,7 @@ exports[`NavbarMenu should render correctly 1`] = `
   width: 100%;
   padding: 4.5rem 1.5rem 1.5rem 1.5rem;
   box-sizing: border-box;
-  background-color: #990000;
+  background: #990000;
   -webkit-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
@@ -47,7 +47,7 @@ exports[`NavbarMenu should render correctly 1`] = `
     -ms-flex-align: center;
     align-items: center;
     padding: 1rem 0;
-    background-color: transparent;
+    background: transparent;
   }
 }
 
@@ -80,7 +80,7 @@ exports[`NavbarMenu should render correctly 1`] = `
   width: 100%;
   padding: 4.5rem 1.5rem 1.5rem 1.5rem;
   box-sizing: border-box;
-  background-color: ",
+  background: ",
               [Function],
               ";
   transform: translate3d(0, 0, 0);
@@ -98,7 +98,7 @@ exports[`NavbarMenu should render correctly 1`] = `
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    background-color: transparent;
+    background: transparent;
   }
 ",
             ],
@@ -146,7 +146,7 @@ exports[`NavbarMenu should render correctly with toggled 1`] = `
   width: 100%;
   padding: 4.5rem 1.5rem 1.5rem 1.5rem;
   box-sizing: border-box;
-  background-color: #990000;
+  background: #990000;
   -webkit-transform: translate3d(0,0,0);
   -ms-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
@@ -173,7 +173,7 @@ exports[`NavbarMenu should render correctly with toggled 1`] = `
     -ms-flex-align: center;
     align-items: center;
     padding: 1rem 0;
-    background-color: transparent;
+    background: transparent;
   }
 }
 
@@ -206,7 +206,7 @@ exports[`NavbarMenu should render correctly with toggled 1`] = `
   width: 100%;
   padding: 4.5rem 1.5rem 1.5rem 1.5rem;
   box-sizing: border-box;
-  background-color: ",
+  background: ",
               [Function],
               ";
   transform: translate3d(0, 0, 0);
@@ -224,7 +224,7 @@ exports[`NavbarMenu should render correctly with toggled 1`] = `
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
-    background-color: transparent;
+    background: transparent;
   }
 ",
             ],

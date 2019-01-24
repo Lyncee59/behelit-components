@@ -24,7 +24,7 @@ const Circle1 = styled.div`
   height: 100%;
   border-radius: 50%;
   opacity: 0.7;
-  background-color: ${theme('loaderColor')};
+  background: ${theme('loaderColor')};
   animation: ${bounceAnimation} 2s infinite ease-in-out;
 `
 

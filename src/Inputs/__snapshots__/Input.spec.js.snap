@@ -14,7 +14,7 @@ exports[`Input should render correctly 1`] = `
   border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -91,7 +91,7 @@ exports[`Input should render correctly 1`] = `
               ";
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: ",
+  background: ",
               [Function],
               ";
   background-image: none;
@@ -155,7 +155,7 @@ exports[`Input should render correctly with disabled 1`] = `
   border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -232,7 +232,7 @@ exports[`Input should render correctly with disabled 1`] = `
               ";
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: ",
+  background: ",
               [Function],
               ";
   background-image: none;
@@ -296,7 +296,7 @@ exports[`Input should render correctly with type 1`] = `
   border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -373,7 +373,7 @@ exports[`Input should render correctly with type 1`] = `
               ";
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: ",
+  background: ",
               [Function],
               ";
   background-image: none;
@@ -437,7 +437,7 @@ exports[`Input should render correctly with width 1`] = `
   border-color: #C2C2C2;
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: #FFFFFF;
+  background: #FFFFFF;
   background-image: none;
   outline-width: 0;
   -webkit-user-select: text;
@@ -514,7 +514,7 @@ exports[`Input should render correctly with width 1`] = `
               ";
   border-style: solid;
   border-radius: 0.125rem;
-  background-color: ",
+  background: ",
               [Function],
               ";
   background-image: none;

@@ -21,7 +21,7 @@ exports[`Panel should render correctly 1`] = `
   width: 100%;
   min-width: 100%;
   box-shadow: 0 0 1.5rem 0.4rem #C2C2C2;
-  background-color: #FFFFFF;
+  background: #FFFFFF;
 }
 
 <Panel
@@ -59,7 +59,7 @@ exports[`Panel should render correctly 1`] = `
   box-shadow: 0 0 1.5rem 0.4rem ",
               [Function],
               ";
-  background-color: ",
+  background: ",
               [Function],
               ";
 ",
@@ -111,7 +111,7 @@ exports[`Panel should render correctly with height 1`] = `
   width: 100%;
   min-width: 100%;
   box-shadow: 0 0 1.5rem 0.4rem #C2C2C2;
-  background-color: #FFFFFF;
+  background: #FFFFFF;
 }
 
 <Panel
@@ -149,7 +149,7 @@ exports[`Panel should render correctly with height 1`] = `
   box-shadow: 0 0 1.5rem 0.4rem ",
               [Function],
               ";
-  background-color: ",
+  background: ",
               [Function],
               ";
 ",
@@ -201,7 +201,7 @@ exports[`Panel should render correctly with width 1`] = `
   width: 200px;
   min-width: 200px;
   box-shadow: 0 0 1.5rem 0.4rem #C2C2C2;
-  background-color: #FFFFFF;
+  background: #FFFFFF;
 }
 
 <Panel
@@ -239,7 +239,7 @@ exports[`Panel should render correctly with width 1`] = `
   box-shadow: 0 0 1.5rem 0.4rem ",
               [Function],
               ";
-  background-color: ",
+  background: ",
               [Function],
               ";
 ",
