@@ -35,12 +35,11 @@ const Wrapper = styled.textarea`
   }
 `
 
-const TextArea = ({ ...props }) => <Wrapper {...props} />
+const TextArea = (props) => <Wrapper {...props} />
 
 TextArea.propTypes = {
   disabled: PropTypes.bool,
   height: PropTypes.string,
-  value: PropTypes.string,
   width: PropTypes.string
 }
 

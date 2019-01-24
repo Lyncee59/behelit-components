@@ -24,11 +24,6 @@ describe('TextArea', () => {
     expect(tree.find(TextArea)).toMatchSnapshot()
   })
 
-  it('should render correctly with value', () => {
-    const tree = mountWithTheme(<TextArea value="Hello dear friend" />)
-    expect(tree.find(TextArea)).toMatchSnapshot()
-  })
-
   it('should render correctly with width', () => {
     const tree = mountWithTheme(<TextArea width="200px" />)
     expect(tree.find(TextArea)).toMatchSnapshot()
