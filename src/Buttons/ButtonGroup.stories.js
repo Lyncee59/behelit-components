@@ -13,4 +13,10 @@ storiesOf('Buttons/ButtonGroup', module).add('default', () => (
     <Button2 />
     <Button3 />
   </ButtonGroup>
+)).add('with width', () => (
+  <ButtonGroup width="500px">
+    <Button1 />
+    <Button2 />
+    <Button3 />
+  </ButtonGroup>
 ))

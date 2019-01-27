@@ -32,7 +32,7 @@ exports[`FooterElement should render correctly 1`] = `
     weight={500}
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -48,6 +48,7 @@ exports[`FooterElement should render correctly 1`] = `
             ],
           },
           "displayName": "Styled(Link)",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bwzfXH",
           "target": [Function],
@@ -82,7 +83,7 @@ exports[`FooterElement should render correctly 1`] = `
           <StyledComponent
             capitalize={false}
             className="c0"
-            forwardedClass={
+            forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
@@ -125,6 +126,7 @@ exports[`FooterElement should render correctly 1`] = `
                   ],
                 },
                 "displayName": "styled.a",
+                "foldedComponentIds": Array [],
                 "render": [Function],
                 "styledComponentId": "sc-bdVaJa",
                 "target": "a",

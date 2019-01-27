@@ -16,7 +16,7 @@ exports[`FooterCategory should render correctly 1`] = `
 <FooterCategory>
   <styled.h5>
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -41,6 +41,7 @@ exports[`FooterCategory should render correctly 1`] = `
             ],
           },
           "displayName": "styled.h5",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "h5",

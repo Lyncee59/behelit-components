@@ -29,7 +29,7 @@ exports[`Text should render correctly 1`] = `
   >
     <StyledComponent
       capitalize={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -64,6 +64,7 @@ exports[`Text should render correctly 1`] = `
             ],
           },
           "displayName": "styled.span",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "span",
@@ -120,7 +121,7 @@ exports[`Text should render correctly with capitalize 1`] = `
   >
     <StyledComponent
       capitalize={true}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -155,6 +156,7 @@ exports[`Text should render correctly with capitalize 1`] = `
             ],
           },
           "displayName": "styled.span",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "span",
@@ -211,7 +213,7 @@ exports[`Text should render correctly with italic 1`] = `
   >
     <StyledComponent
       capitalize={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -246,6 +248,7 @@ exports[`Text should render correctly with italic 1`] = `
             ],
           },
           "displayName": "styled.span",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "span",
@@ -302,7 +305,7 @@ exports[`Text should render correctly with opacity 1`] = `
   >
     <StyledComponent
       capitalize={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -337,6 +340,7 @@ exports[`Text should render correctly with opacity 1`] = `
             ],
           },
           "displayName": "styled.span",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "span",
@@ -393,7 +397,7 @@ exports[`Text should render correctly with size 1`] = `
   >
     <StyledComponent
       capitalize={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -428,6 +432,7 @@ exports[`Text should render correctly with size 1`] = `
             ],
           },
           "displayName": "styled.span",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "span",
@@ -484,7 +489,7 @@ exports[`Text should render correctly with uppercase 1`] = `
   >
     <StyledComponent
       capitalize={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -519,6 +524,7 @@ exports[`Text should render correctly with uppercase 1`] = `
             ],
           },
           "displayName": "styled.span",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "span",
@@ -575,7 +581,7 @@ exports[`Text should render correctly with weight 1`] = `
   >
     <StyledComponent
       capitalize={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -610,6 +616,7 @@ exports[`Text should render correctly with weight 1`] = `
             ],
           },
           "displayName": "styled.span",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "span",

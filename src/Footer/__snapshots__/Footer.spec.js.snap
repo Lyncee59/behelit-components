@@ -31,7 +31,7 @@ exports[`Footer should render correctly 1`] = `
 <Footer>
   <styled.div>
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -58,6 +58,7 @@ exports[`Footer should render correctly 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",

@@ -54,7 +54,7 @@ exports[`FooterRow should render correctly 1`] = `
 <FooterRow>
   <styled.div>
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -92,6 +92,7 @@ exports[`FooterRow should render correctly 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",

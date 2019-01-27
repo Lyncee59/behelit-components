@@ -2,11 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
+import { prop } from '../Tools/interpolation'
+
 const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: ${prop('width')};
 
   & *:not(:last-child) {
     margin-right: 0.4rem;
@@ -33,7 +36,12 @@ const Wrapper = styled.div`
 const ButtonGroup = ({ children, ...rest }) => <Wrapper {...rest}>{children}</Wrapper>
 
 ButtonGroup.propTypes = {
-  children: PropTypes.node
+  children: PropTypes.node,
+  width: PropTypes.string
+}
+
+ButtonGroup.defaultProps = {
+  width: '100%'
 }
 
 export default ButtonGroup

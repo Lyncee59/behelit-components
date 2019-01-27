@@ -20,7 +20,7 @@ exports[`BrandLogo should render correctly 1`] = `
   >
     <StyledComponent
       enable-background="new 0 0 707 714"
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -40,6 +40,7 @@ exports[`BrandLogo should render correctly 1`] = `
             ],
           },
           "displayName": "styled.svg",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "svg",
@@ -98,7 +99,7 @@ exports[`BrandLogo should render correctly with size 1`] = `
   >
     <StyledComponent
       enable-background="new 0 0 707 714"
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -118,6 +119,7 @@ exports[`BrandLogo should render correctly with size 1`] = `
             ],
           },
           "displayName": "styled.svg",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "svg",

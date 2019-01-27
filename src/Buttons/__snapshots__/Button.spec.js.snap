@@ -58,7 +58,7 @@ exports[`Button should have a bounced state 1`] = `
     <StyledComponent
       bounced={true}
       disabled={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -113,6 +113,7 @@ exports[`Button should have a bounced state 1`] = `
             ],
           },
           "displayName": "styled.button",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "button",
@@ -194,7 +195,7 @@ exports[`Button should have a disabled state 1`] = `
     <StyledComponent
       bounced={false}
       disabled={true}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -249,6 +250,7 @@ exports[`Button should have a disabled state 1`] = `
             ],
           },
           "displayName": "styled.button",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "button",
@@ -330,7 +332,7 @@ exports[`Button should have a type property 1`] = `
     <StyledComponent
       bounced={false}
       disabled={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -385,6 +387,7 @@ exports[`Button should have a type property 1`] = `
             ],
           },
           "displayName": "styled.button",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "button",
@@ -466,7 +469,7 @@ exports[`Button should have a type property 2`] = `
     <StyledComponent
       bounced={false}
       disabled={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -521,6 +524,7 @@ exports[`Button should have a type property 2`] = `
             ],
           },
           "displayName": "styled.button",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "button",
@@ -602,7 +606,7 @@ exports[`Button should render correctly 1`] = `
     <StyledComponent
       bounced={false}
       disabled={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -657,6 +661,7 @@ exports[`Button should render correctly 1`] = `
             ],
           },
           "displayName": "styled.button",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "button",

@@ -32,7 +32,7 @@ exports[`Section should render correctly 1`] = `
     nature="none"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -60,6 +60,7 @@ exports[`Section should render correctly 1`] = `
             ],
           },
           "displayName": "styled.section",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "section",
@@ -115,7 +116,7 @@ exports[`Section should render correctly with height 1`] = `
     nature="none"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -143,6 +144,7 @@ exports[`Section should render correctly with height 1`] = `
             ],
           },
           "displayName": "styled.section",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "section",
@@ -198,7 +200,7 @@ exports[`Section should render correctly with nature 1`] = `
     nature="blocks"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -226,6 +228,7 @@ exports[`Section should render correctly with nature 1`] = `
             ],
           },
           "displayName": "styled.section",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "section",
@@ -281,7 +284,7 @@ exports[`Section should render correctly with nature 2`] = `
     nature="diamonds"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -309,6 +312,7 @@ exports[`Section should render correctly with nature 2`] = `
             ],
           },
           "displayName": "styled.section",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "section",

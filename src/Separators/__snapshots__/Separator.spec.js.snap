@@ -10,7 +10,7 @@ exports[`Separator should render correctly 1`] = `
 <Separator>
   <styled.div>
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -29,6 +29,7 @@ exports[`Separator should render correctly 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",

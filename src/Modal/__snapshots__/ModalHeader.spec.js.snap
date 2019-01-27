@@ -26,7 +26,7 @@ exports[`ModalHeader should render correctly 1`] = `
 <ModalHeader>
   <styled.div>
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -50,6 +50,7 @@ exports[`ModalHeader should render correctly 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",

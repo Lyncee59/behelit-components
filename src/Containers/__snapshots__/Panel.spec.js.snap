@@ -33,7 +33,7 @@ exports[`Panel should render correctly 1`] = `
     width="100%"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -66,6 +66,7 @@ exports[`Panel should render correctly 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",
@@ -123,7 +124,7 @@ exports[`Panel should render correctly with height 1`] = `
     width="100%"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -156,6 +157,7 @@ exports[`Panel should render correctly with height 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",
@@ -213,7 +215,7 @@ exports[`Panel should render correctly with width 1`] = `
     width="200px"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -246,6 +248,7 @@ exports[`Panel should render correctly with width 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",

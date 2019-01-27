@@ -57,7 +57,7 @@ exports[`NavbarNav should render correctly 1`] = `
     width="100%"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -102,6 +102,7 @@ exports[`NavbarNav should render correctly 1`] = `
             ],
           },
           "displayName": "styled.ul",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "ul",
@@ -180,7 +181,7 @@ exports[`NavbarNav should render correctly with toggled 1`] = `
     width="100%"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -225,6 +226,7 @@ exports[`NavbarNav should render correctly with toggled 1`] = `
             ],
           },
           "displayName": "styled.ul",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "ul",
@@ -303,7 +305,7 @@ exports[`NavbarNav should render correctly with toggled 2`] = `
     width="auto"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -348,6 +350,7 @@ exports[`NavbarNav should render correctly with toggled 2`] = `
             ],
           },
           "displayName": "styled.ul",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "ul",

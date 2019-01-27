@@ -38,7 +38,7 @@ exports[`NavbarNavDropdown should render correctly 1`] = `
 <NavbarNavItem>
   <styled.li>
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -80,6 +80,7 @@ exports[`NavbarNavDropdown should render correctly 1`] = `
             ],
           },
           "displayName": "styled.li",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "li",

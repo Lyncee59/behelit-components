@@ -24,7 +24,7 @@ exports[`BrandName should render correctly 1`] = `
     weight={700}
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -41,6 +41,7 @@ exports[`BrandName should render correctly 1`] = `
             ],
           },
           "displayName": "Styled(Text)",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-htpNat",
           "target": [Function],
@@ -75,7 +76,7 @@ exports[`BrandName should render correctly 1`] = `
           <StyledComponent
             capitalize={false}
             className="c0"
-            forwardedClass={
+            forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
@@ -110,6 +111,7 @@ exports[`BrandName should render correctly 1`] = `
                   ],
                 },
                 "displayName": "styled.span",
+                "foldedComponentIds": Array [],
                 "render": [Function],
                 "styledComponentId": "sc-bdVaJa",
                 "target": "span",
@@ -164,7 +166,7 @@ exports[`BrandName should render correctly with size 1`] = `
     weight={700}
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -181,6 +183,7 @@ exports[`BrandName should render correctly with size 1`] = `
             ],
           },
           "displayName": "Styled(Text)",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-htpNat",
           "target": [Function],
@@ -215,7 +218,7 @@ exports[`BrandName should render correctly with size 1`] = `
           <StyledComponent
             capitalize={false}
             className="c0"
-            forwardedClass={
+            forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
@@ -250,6 +253,7 @@ exports[`BrandName should render correctly with size 1`] = `
                   ],
                 },
                 "displayName": "styled.span",
+                "foldedComponentIds": Array [],
                 "render": [Function],
                 "styledComponentId": "sc-bdVaJa",
                 "target": "span",

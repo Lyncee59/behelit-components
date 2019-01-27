@@ -51,7 +51,7 @@ exports[`ListItem should render correctly 1`] = `
 >
   <styled.li>
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -69,6 +69,7 @@ exports[`ListItem should render correctly 1`] = `
             ],
           },
           "displayName": "styled.li",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-htpNat",
           "target": "li",
@@ -84,7 +85,7 @@ exports[`ListItem should render correctly 1`] = `
       >
         <styled.div>
           <StyledComponent
-            forwardedClass={
+            forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
@@ -108,6 +109,7 @@ exports[`ListItem should render correctly 1`] = `
                   ],
                 },
                 "displayName": "styled.div",
+                "foldedComponentIds": Array [],
                 "render": [Function],
                 "styledComponentId": "sc-bxivhb",
                 "target": "div",
@@ -141,7 +143,7 @@ exports[`ListItem should render correctly 1`] = `
           >
             <StyledComponent
               capitalize={false}
-              forwardedClass={
+              forwardedComponent={
                 Object {
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
@@ -176,6 +178,7 @@ exports[`ListItem should render correctly 1`] = `
                     ],
                   },
                   "displayName": "styled.span",
+                  "foldedComponentIds": Array [],
                   "render": [Function],
                   "styledComponentId": "sc-bdVaJa",
                   "target": "span",

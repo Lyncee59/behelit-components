@@ -59,6 +59,7 @@ exports[`Button should render correctly 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  width: 100%;
 }
 
 .c0 *:not(:last-child) {
@@ -82,16 +83,20 @@ exports[`Button should render correctly 1`] = `
   border-bottom-left-radius: initial;
 }
 
-<ButtonGroup>
-  <styled.div>
+<ButtonGroup
+  width="100%"
+>
+  <styled.div
+    width="100%"
+  >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
             "componentId": "sc-bwzfXH",
-            "isStatic": true,
+            "isStatic": false,
             "lastClassName": "c0",
             "rules": Array [
               "
@@ -99,6 +104,9 @@ exports[`Button should render correctly 1`] = `
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: ",
+              [Function],
+              ";
 
   & *:not(:last-child) {
     margin-right: 0.4rem;
@@ -124,6 +132,7 @@ exports[`Button should render correctly 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bwzfXH",
           "target": "div",
@@ -133,9 +142,11 @@ exports[`Button should render correctly 1`] = `
         }
       }
       forwardedRef={null}
+      width="100%"
     >
       <div
         className="c0"
+        width="100%"
       >
         <Button1>
           <Button
@@ -153,7 +164,7 @@ exports[`Button should render correctly 1`] = `
               <StyledComponent
                 bounced={false}
                 disabled={false}
-                forwardedClass={
+                forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
@@ -208,6 +219,7 @@ exports[`Button should render correctly 1`] = `
                       ],
                     },
                     "displayName": "styled.button",
+                    "foldedComponentIds": Array [],
                     "render": [Function],
                     "styledComponentId": "sc-bdVaJa",
                     "target": "button",
@@ -248,7 +260,7 @@ exports[`Button should render correctly 1`] = `
               <StyledComponent
                 bounced={false}
                 disabled={false}
-                forwardedClass={
+                forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
@@ -303,6 +315,7 @@ exports[`Button should render correctly 1`] = `
                       ],
                     },
                     "displayName": "styled.button",
+                    "foldedComponentIds": Array [],
                     "render": [Function],
                     "styledComponentId": "sc-bdVaJa",
                     "target": "button",
@@ -343,7 +356,7 @@ exports[`Button should render correctly 1`] = `
               <StyledComponent
                 bounced={false}
                 disabled={false}
-                forwardedClass={
+                forwardedComponent={
                   Object {
                     "$$typeof": Symbol(react.forward_ref),
                     "attrs": Array [],
@@ -398,6 +411,7 @@ exports[`Button should render correctly 1`] = `
                       ],
                     },
                     "displayName": "styled.button",
+                    "foldedComponentIds": Array [],
                     "render": [Function],
                     "styledComponentId": "sc-bdVaJa",
                     "target": "button",

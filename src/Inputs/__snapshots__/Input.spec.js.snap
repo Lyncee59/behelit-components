@@ -61,7 +61,7 @@ exports[`Input should render correctly 1`] = `
   >
     <StyledComponent
       disabled={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -118,6 +118,7 @@ exports[`Input should render correctly 1`] = `
             ],
           },
           "displayName": "styled.input",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "input",
@@ -202,7 +203,7 @@ exports[`Input should render correctly with disabled 1`] = `
   >
     <StyledComponent
       disabled={true}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -259,6 +260,7 @@ exports[`Input should render correctly with disabled 1`] = `
             ],
           },
           "displayName": "styled.input",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "input",
@@ -343,7 +345,7 @@ exports[`Input should render correctly with type 1`] = `
   >
     <StyledComponent
       disabled={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -400,6 +402,7 @@ exports[`Input should render correctly with type 1`] = `
             ],
           },
           "displayName": "styled.input",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "input",
@@ -484,7 +487,7 @@ exports[`Input should render correctly with width 1`] = `
   >
     <StyledComponent
       disabled={false}
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -541,6 +544,7 @@ exports[`Input should render correctly with width 1`] = `
             ],
           },
           "displayName": "styled.input",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "input",

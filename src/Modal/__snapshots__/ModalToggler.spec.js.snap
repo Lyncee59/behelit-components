@@ -23,7 +23,7 @@ exports[`ModalToggler should render correctly 1`] = `
       width="28px"
     >
       <StyledComponent
-        forwardedClass={
+        forwardedComponent={
           Object {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
@@ -53,6 +53,7 @@ exports[`ModalToggler should render correctly 1`] = `
               ],
             },
             "displayName": "Styled(SvgFasTimes)",
+            "foldedComponentIds": Array [],
             "render": [Function],
             "styledComponentId": "sc-hzBeZU",
             "target": [Function],

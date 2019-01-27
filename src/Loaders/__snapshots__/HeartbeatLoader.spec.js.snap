@@ -42,7 +42,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
     size="40px"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -63,6 +63,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",
@@ -80,7 +81,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
       >
         <styled.div>
           <StyledComponent
-            forwardedClass={
+            forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
@@ -116,6 +117,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
                   ],
                 },
                 "displayName": "styled.div",
+                "foldedComponentIds": Array [],
                 "render": [Function],
                 "styledComponentId": "sc-bwzfXH",
                 "target": "div",
@@ -133,7 +135,7 @@ exports[`HeartbeatLoader should render correctly 1`] = `
         </styled.div>
         <Styled(styled.div)>
           <StyledComponent
-            forwardedClass={
+            forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
@@ -172,6 +174,9 @@ exports[`HeartbeatLoader should render correctly 1`] = `
                   ],
                 },
                 "displayName": "Styled(styled.div)",
+                "foldedComponentIds": Array [
+                  "sc-bwzfXH",
+                ],
                 "render": [Function],
                 "styledComponentId": "sc-htpNat",
                 "target": "div",
@@ -235,7 +240,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
     size="100px"
   >
     <StyledComponent
-      forwardedClass={
+      forwardedComponent={
         Object {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
@@ -256,6 +261,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
             ],
           },
           "displayName": "styled.div",
+          "foldedComponentIds": Array [],
           "render": [Function],
           "styledComponentId": "sc-bdVaJa",
           "target": "div",
@@ -273,7 +279,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
       >
         <styled.div>
           <StyledComponent
-            forwardedClass={
+            forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
@@ -309,6 +315,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
                   ],
                 },
                 "displayName": "styled.div",
+                "foldedComponentIds": Array [],
                 "render": [Function],
                 "styledComponentId": "sc-bwzfXH",
                 "target": "div",
@@ -326,7 +333,7 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
         </styled.div>
         <Styled(styled.div)>
           <StyledComponent
-            forwardedClass={
+            forwardedComponent={
               Object {
                 "$$typeof": Symbol(react.forward_ref),
                 "attrs": Array [],
@@ -365,6 +372,9 @@ exports[`HeartbeatLoader should render correctly with size 1`] = `
                   ],
                 },
                 "displayName": "Styled(styled.div)",
+                "foldedComponentIds": Array [
+                  "sc-bwzfXH",
+                ],
                 "render": [Function],
                 "styledComponentId": "sc-htpNat",
                 "target": "div",
