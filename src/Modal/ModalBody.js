@@ -12,7 +12,7 @@ const Wrapper = styled.div`
 
   @media (min-width: ${screenSize('sm')}) {
     height: auto;
-    overflow-y: none;
+    overflow-y: hidden;
   }
 `
 

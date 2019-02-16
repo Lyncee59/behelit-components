@@ -12,7 +12,7 @@ exports[`ModalBody should render correctly 1`] = `
 @media (min-width:48rem) {
   .c0 {
     height: auto;
-    overflow-y: none;
+    overflow-y: hidden;
   }
 }
 
@@ -39,7 +39,7 @@ exports[`ModalBody should render correctly 1`] = `
               [Function],
               ") {
     height: auto;
-    overflow-y: none;
+    overflow-y: hidden;
   }
 ",
             ],

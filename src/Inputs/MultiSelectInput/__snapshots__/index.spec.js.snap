@@ -1,0 +1,891 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MultiSelectInput should render correctly 1`] = `
+.c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #C2C2C2;
+}
+
+.c2 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 150px;
+  border: 1px solid #C2C2C2;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.c3 {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0.7rem 1.4rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px dotted #C2C2C2;
+  outline: none;
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #323232;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #C2C2C2;
+}
+
+.c4 {
+  width: 100%;
+  max-height: 200px;
+  background-color: #FFFFFF;
+  overflow-y: auto;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #323232;
+  cursor: pointer;
+}
+
+.c5:hover {
+  background-color: #FFFFFF;
+}
+
+<MultiSelectField
+  items={
+    Array [
+      Object {
+        "text": "Item1",
+        "value": "1",
+      },
+      Object {
+        "text": "Item2",
+        "value": "2",
+      },
+      Object {
+        "text": "Item3",
+        "value": "3",
+      },
+      Object {
+        "text": "Item4",
+        "value": "4",
+      },
+      Object {
+        "text": "Item5",
+        "value": "5",
+      },
+    ]
+  }
+  onChange={[MockFunction]}
+  value={
+    Array [
+      4,
+    ]
+  }
+>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={
+        Object {
+          "current": .c0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #C2C2C2;
+}
+
+.c2 {
+  display: none;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 150px;
+  border: 1px solid #C2C2C2;
+  box-sizing: border-box;
+  z-index: 100;
+}
+
+.c3 {
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0.7rem 1.4rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px dotted #C2C2C2;
+  outline: none;
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #323232;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #C2C2C2;
+}
+
+.c4 {
+  width: 100%;
+  max-height: 200px;
+  background-color: #FFFFFF;
+  overflow-y: auto;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #323232;
+  cursor: pointer;
+}
+
+.c5:hover {
+  background-color: #FFFFFF;
+}
+
+<div
+            class="c0"
+          >
+            <div
+              class="c1"
+            />
+            <div
+              class="c2"
+            >
+              <input
+                class="c3"
+                type="text"
+                value=""
+              />
+              <div
+                class="c4"
+              >
+                <div
+                  class="c5"
+                >
+                  Item1
+                </div>
+                <div
+                  class="c5"
+                >
+                  Item2
+                </div>
+                <div
+                  class="c5"
+                >
+                  Item3
+                </div>
+                <div
+                  class="c5"
+                >
+                  Item4
+                </div>
+                <div
+                  class="c5"
+                >
+                  Item5
+                </div>
+              </div>
+            </div>
+          </div>,
+        }
+      }
+    >
+      <div
+        className="c0"
+      >
+        <styled.div
+          onClick={[Function]}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bwzfXH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  min-height: 40px;
+  padding: 5px;
+  box-sizing: border-box;
+  background: ",
+                    [Function],
+                    ";
+  border: 1px solid ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bwzfXH",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[Function]}
+          >
+            <div
+              className="c1"
+              onClick={[Function]}
+            />
+          </StyledComponent>
+        </styled.div>
+        <styled.div
+          toggled={false}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bxivhb",
+                  "isStatic": false,
+                  "lastClassName": "c2",
+                  "rules": Array [
+                    "
+  display: ",
+                    [Function],
+                    ";
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  max-height: 150px;
+  border: 1px solid ",
+                    [Function],
+                    ";
+  box-sizing: border-box;
+  z-index: 100;
+",
+                  ],
+                },
+                "displayName": "styled.div",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-bxivhb",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            toggled={false}
+          >
+            <div
+              className="c2"
+            >
+              <styled.input
+                onChange={[Function]}
+                value=""
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [
+                        Object {
+                          "type": "text",
+                        },
+                      ],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-ifAKCX",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "
+  display: block;
+  width: 100%;
+  height: 40px;
+  padding: 0.7rem 1.4rem;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px dotted ",
+                          [Function],
+                          "; 
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: ",
+                          [Function],
+                          ";
+
+  &::-webkit-input-placeholder { color: ",
+                          [Function],
+                          "; }
+",
+                        ],
+                      },
+                      "displayName": "styled.input",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-ifAKCX",
+                      "target": "input",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={
+                    Object {
+                      "current": <input
+                        class="c3"
+                        type="text"
+                        value=""
+                      />,
+                    }
+                  }
+                  onChange={[Function]}
+                  value=""
+                >
+                  <input
+                    className="c3"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+                  />
+                </StyledComponent>
+              </styled.input>
+              <styled.div>
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-EHOje",
+                        "isStatic": false,
+                        "lastClassName": "c4",
+                        "rules": Array [
+                          "
+  width: 100%;
+  max-height: 200px;
+  background-color: ",
+                          [Function],
+                          ";
+  overflow-y: auto;
+",
+                        ],
+                      },
+                      "displayName": "styled.div",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-EHOje",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                >
+                  <div
+                    className="c4"
+                  >
+                    <styled.div
+                      key="Item1"
+                      onClick={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bZQynM",
+                              "isStatic": false,
+                              "lastClassName": "c5",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40px;  
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: ",
+                                [Function],
+                                ";
+  cursor: pointer;
+
+  &:hover { background-color: ",
+                                [Function],
+                                "; }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bZQynM",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="c5"
+                          onClick={[Function]}
+                        >
+                          Item1
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                    <styled.div
+                      key="Item2"
+                      onClick={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bZQynM",
+                              "isStatic": false,
+                              "lastClassName": "c5",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40px;  
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: ",
+                                [Function],
+                                ";
+  cursor: pointer;
+
+  &:hover { background-color: ",
+                                [Function],
+                                "; }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bZQynM",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="c5"
+                          onClick={[Function]}
+                        >
+                          Item2
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                    <styled.div
+                      key="Item3"
+                      onClick={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bZQynM",
+                              "isStatic": false,
+                              "lastClassName": "c5",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40px;  
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: ",
+                                [Function],
+                                ";
+  cursor: pointer;
+
+  &:hover { background-color: ",
+                                [Function],
+                                "; }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bZQynM",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="c5"
+                          onClick={[Function]}
+                        >
+                          Item3
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                    <styled.div
+                      key="Item4"
+                      onClick={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bZQynM",
+                              "isStatic": false,
+                              "lastClassName": "c5",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40px;  
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: ",
+                                [Function],
+                                ";
+  cursor: pointer;
+
+  &:hover { background-color: ",
+                                [Function],
+                                "; }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bZQynM",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="c5"
+                          onClick={[Function]}
+                        >
+                          Item4
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                    <styled.div
+                      key="Item5"
+                      onClick={[Function]}
+                    >
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "sc-bZQynM",
+                              "isStatic": false,
+                              "lastClassName": "c5",
+                              "rules": Array [
+                                "
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 40px;  
+  padding: 6px 12px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: ",
+                                [Function],
+                                ";
+  cursor: pointer;
+
+  &:hover { background-color: ",
+                                [Function],
+                                "; }
+",
+                              ],
+                            },
+                            "displayName": "styled.div",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "sc-bZQynM",
+                            "target": "div",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="c5"
+                          onClick={[Function]}
+                        >
+                          Item5
+                        </div>
+                      </StyledComponent>
+                    </styled.div>
+                  </div>
+                </StyledComponent>
+              </styled.div>
+            </div>
+          </StyledComponent>
+        </styled.div>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</MultiSelectField>
+`;

@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TabMenuItem should render correctly 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #323232;
+  background: #F3F3F3;
+  border: 1px solid #C2C2C2;
+  cursor: pointer;
+}
+
+<TabMenuItem
+  selected={false}
+>
+  <styled.div
+    selected={false}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  font-weight: 400;
+  color: ",
+              [Function],
+              ";
+  background: ",
+              [Function],
+              ";
+  border: 1px solid ",
+              [Function],
+              ";
+  cursor: pointer;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      selected={false}
+    >
+      <div
+        className="c0"
+        selected={false}
+      >
+        TabMenuItem
+      </div>
+    </StyledComponent>
+  </styled.div>
+</TabMenuItem>
+`;
+
+exports[`TabMenuItem should render correctly with width 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-family: 'Roboto',sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #FFFFFF;
+  background: #990000;
+  border: 1px solid #990000;
+  cursor: pointer;
+}
+
+<TabMenuItem
+  selected={true}
+>
+  <styled.div
+    selected={true}
+  >
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-family: ",
+              [Function],
+              ";
+  font-size: 1rem;
+  font-weight: 400;
+  color: ",
+              [Function],
+              ";
+  background: ",
+              [Function],
+              ";
+  border: 1px solid ",
+              [Function],
+              ";
+  cursor: pointer;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      selected={true}
+    >
+      <div
+        className="c0"
+        selected={true}
+      >
+        TabMenuItem
+      </div>
+    </StyledComponent>
+  </styled.div>
+</TabMenuItem>
+`;

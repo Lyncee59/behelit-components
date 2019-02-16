@@ -1,6 +1,6 @@
 {
   "name": "@behelit/components",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Behelit components library",
   "main": "lib/index.js",
   "module": "esm/index.js",
@@ -10,7 +10,7 @@
     "prepare": "node utils/build.js",
     "build-storybook": "build-storybook",
     "build-icons": "node ./utils/generateIcons",
-    "test": "jest --notify --watch",
+    "test": "jest --notify",
     "test:update": "jest -u",
     "test:coverage": "jest --coverage",
     "changelog": "git-changelog -t"

@@ -1,0 +1,327 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote should render correctly 1`] = `
+.c2 {
+  fill: #990000;
+  cursor: default;
+}
+
+.c2:hover {
+  fill: #990000;
+}
+
+.c4 {
+  fill: #990000;
+  cursor: default;
+}
+
+.c4:hover {
+  fill: #990000;
+}
+
+.c0 {
+  position: relative;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: #F3F3F3;
+  border: 1px solid #C2C2C2;
+  border-radius: 5px;
+}
+
+.c1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  fill: #7C7C7C;
+}
+
+.c3 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  fill: #7C7C7C;
+}
+
+<Quote>
+  <styled.div>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-jgZNlG",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  position: relative;
+  padding: 2rem;
+  box-sizing: border-box;
+  background-color: ",
+              [Function],
+              ";
+  border: 1px solid ",
+              [Function],
+              ";
+  border-radius: 5px;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-jgZNlG",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+      >
+        <Styled(FasQuoteLeft)
+          size="14px"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-clpBeH",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  fill: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "Styled(FasQuoteLeft)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-clpBeH",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              }
+            }
+            forwardedRef={null}
+            size="14px"
+          >
+            <FasQuoteLeft
+              className="c1"
+              selectable={false}
+              size="14px"
+            >
+              <Styled(SvgFasQuoteLeft)
+                className="c1"
+                height="14px"
+                selectable={0}
+                width="14px"
+              >
+                <StyledComponent
+                  className="c1"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bYzVrU",
+                        "isStatic": false,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "
+    ",
+                          "
+  fill: ",
+                          [Function],
+                          ";
+  cursor: ",
+                          [Function],
+                          ";
+
+  &:hover {
+    fill: ",
+                          [Function],
+                          ";
+  }
+",
+                          ";
+  ",
+                        ],
+                      },
+                      "displayName": "Styled(SvgFasQuoteLeft)",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bYzVrU",
+                      "target": [Function],
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                      Symbol(Symbol.hasInstance): [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  height="14px"
+                  selectable={0}
+                  width="14px"
+                >
+                  <SvgFasQuoteLeft
+                    className="c1 c2"
+                    height="14px"
+                    selectable={0}
+                    width="14px"
+                  >
+                    <svg
+                      className="c1 c2"
+                      height="14px"
+                      selectable={0}
+                      viewBox="0 0 512 512"
+                      width="14px"
+                    >
+                      <path
+                        d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"
+                      />
+                    </svg>
+                  </SvgFasQuoteLeft>
+                </StyledComponent>
+              </Styled(SvgFasQuoteLeft)>
+            </FasQuoteLeft>
+          </StyledComponent>
+        </Styled(FasQuoteLeft)>
+        MyQuote
+        <Styled(FasQuoteRight)
+          size="14px"
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-eOlQxU",
+                  "isStatic": false,
+                  "lastClassName": "c3",
+                  "rules": Array [
+                    "
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  fill: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "Styled(FasQuoteRight)",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "sc-eOlQxU",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+                Symbol(Symbol.hasInstance): [Function],
+              }
+            }
+            forwardedRef={null}
+            size="14px"
+          >
+            <FasQuoteRight
+              className="c3"
+              selectable={false}
+              size="14px"
+            >
+              <Styled(SvgFasQuoteRight)
+                className="c3"
+                height="14px"
+                selectable={0}
+                width="14px"
+              >
+                <StyledComponent
+                  className="c3"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-hHjfor",
+                        "isStatic": false,
+                        "lastClassName": "c4",
+                        "rules": Array [
+                          "
+    ",
+                          "
+  fill: ",
+                          [Function],
+                          ";
+  cursor: ",
+                          [Function],
+                          ";
+
+  &:hover {
+    fill: ",
+                          [Function],
+                          ";
+  }
+",
+                          ";
+  ",
+                        ],
+                      },
+                      "displayName": "Styled(SvgFasQuoteRight)",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-hHjfor",
+                      "target": [Function],
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                      Symbol(Symbol.hasInstance): [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  height="14px"
+                  selectable={0}
+                  width="14px"
+                >
+                  <SvgFasQuoteRight
+                    className="c3 c4"
+                    height="14px"
+                    selectable={0}
+                    width="14px"
+                  >
+                    <svg
+                      className="c3 c4"
+                      height="14px"
+                      selectable={0}
+                      viewBox="0 0 512 512"
+                      width="14px"
+                    >
+                      <path
+                        d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                      />
+                    </svg>
+                  </SvgFasQuoteRight>
+                </StyledComponent>
+              </Styled(SvgFasQuoteRight)>
+            </FasQuoteRight>
+          </StyledComponent>
+        </Styled(FasQuoteRight)>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Quote>
+`;
